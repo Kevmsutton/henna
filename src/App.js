@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
 
-function App() {
-  return (
-    <div className='App'>
-      <header className='App-header'>Test</header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+        <Navbar />
+      </div>
+    );
+  }
 }
 
 export default App;
