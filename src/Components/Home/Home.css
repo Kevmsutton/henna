@@ -1,0 +1,46 @@
+.imageDiv {
+  position: relative;
+  font-family: philosopher;
+}
+
+.buttonOuter {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 2.5vw;
+  width: 10vw;
+  padding: 0.8%;
+  background-color: white;
+}
+
+.buttonInner {
+  position: relative;
+  height: 70%;
+  padding: 3%;
+  background-color: white;
+  border: 3px solid black;
+  font-size: 1.6vw;
+}
+
+.leaderP {
+  position: absolute;
+  top: 2%;
+  left: 9%;
+  height: 2.5vw;
+  width: 17vw;
+  padding: 0.8%;
+  font-size: 1.6vw;
+  background-color: null;
+}
+
+.leaderPrice {
+  position: absolute;
+  top: 7%;
+  left: 2.8%;
+  height: 2.5vw;
+  width: 17vw;
+  padding: 0.8%;
+  font-size: 1.8vw;
+  background-color: null;
+  font-style: bold;
+}

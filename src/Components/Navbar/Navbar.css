@@ -54,8 +54,8 @@
 }
 
 .catNav li {
-  margin-left: 1%;
-  float: left;
+  display: inline-block;
+  text-align: center;
   font-size: 1.7rem;
   padding: 12px;
   opacity: 0.6;
