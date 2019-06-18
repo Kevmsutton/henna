@@ -3,6 +3,10 @@
   font-family: philosopher;
 }
 
+.imageDiv img {
+  vertical-align: middle;
+}
+
 .buttonOuter {
   position: absolute;
   top: 20%;
@@ -43,4 +47,53 @@
   font-size: 1.8vw;
   background-color: null;
   font-style: bold;
+}
+
+.power {
+  font-family: philosopher;
+  height: 27vw;
+}
+
+.power1 {
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  background-color: white;
+  font-size: 3vw;
+}
+
+.power1 .p1 {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 2%;
+  opacity: 0.7;
+}
+
+.power1 .p2 {
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 2%;
+  opacity: 0.7;
+}
+
+.sale {
+  height: 100%;
+  width: 60%;
+  display: inline-block;
+  background-color: red;
+  font-size: 4.5vw;
+  color: white;
+}
+
+.sale .p1 {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.sale .p2 {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 5%;
+  font-size: 3vw;
 }
