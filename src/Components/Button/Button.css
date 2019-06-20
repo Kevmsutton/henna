@@ -5,16 +5,30 @@
   height: 2.5vw;
   width: 10vw;
   padding: 0.8%;
-  background-color: white;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
 .buttonInner {
-  position: relative;
-  height: 70%;
-  padding: 3%;
+  position: absolute;
+  padding: 2%;
+  width: 70%;
+  margin-left: 5%;
   background-color: white;
   border: 3px solid black;
   font-size: 1.6vw;
   text-align: center;
+  color: black;
+}
+
+.saleButton .buttonOuter {
+  position: absolute;
+  margin-left: 62%;
+  margin-top: 33%;
+}
+
+.saleButton .buttonInner {
+  position: absolute;
+  margin-left: 8%;
+  font-size: 1.6vw;
+  border: 0.15vw solid black;
 }

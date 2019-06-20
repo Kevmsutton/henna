@@ -34,6 +34,7 @@
 
 .power {
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   font-family: philosopher;
   height: 35vw;
@@ -48,7 +49,6 @@
 }
 
 .powerProduct img {
-  margin: 0;
   margin-top: 7%;
   margin-left: 5%;
 }
@@ -67,17 +67,31 @@
 }
 
 .sale {
+  position: relative;
   height: 100%;
   width: 60%;
   background-color: red;
-  font-size: 4.5vw;
+  font-size: 5.5vw;
   color: white;
 }
 
 .sale .p1 {
+  position: absolute;
   margin: 0;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 .sale .p2 {
+  position: absolute;
   margin: 0;
+  margin-left: 5.5%;
+  margin-top: 11%;
+  font-size: 3.5vw;
+}
+
+.sale img {
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 10%;
 }

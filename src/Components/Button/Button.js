@@ -4,7 +4,7 @@ import './Button.css';
 const Button = () => {
   return (
     <div className='buttonOuter'>
-      <div className='buttonInner'>Take A Look</div>
+      <div className='buttonInner'>Take a look</div>
     </div>
   );
 };

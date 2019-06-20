@@ -3,6 +3,8 @@ import leader from './leader.png';
 import './Home.css';
 import power from './power.png';
 import Button from '../Button/Button.js';
+import sale from './sale.png';
+import HeroBox from '../Hero/Hero.js';
 
 console.log(leader);
 console.log(window.innerWidth);
@@ -30,10 +32,15 @@ class Home extends React.Component {
             <img src={power} width='85%' height='60%' alt='powerImg' />
           </div>
           <div className='sale'>
+            <img src={sale} width='90%' height='90%' alt='saleImg' />
             <p className='p1'>Clearance</p>
             <p className='p2'>Before it's all gone</p>
-            <img />
+            <div className='saleButton'>
+              <Button />
+            </div>
           </div>
+
+          <HeroBox />
         </div>
       </React.Fragment>
     );

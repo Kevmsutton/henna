@@ -1,0 +1,41 @@
+.heroContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.HeroBox {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.heroProduct {
+  height: 20vw;
+  text-align: center;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1.7rem;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.HeroBox p {
+  background-color: grey;
+  text-align: center;
+  width: 70%;
+  height: 10%;
+  display: inline-block;
+  margin: 3%;
+  background-color: #f3f5f9;
+}
+
+.HeroBox img {
+  padding: 0;
+  margin: 0;
+}
