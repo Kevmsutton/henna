@@ -50,12 +50,12 @@
 .catNav ul {
   list-style-type: none;
   margin: 0;
+  text-align: center;
   padding: 0;
 }
 
 .catNav li {
   display: inline-block;
-  text-align: center;
   font-size: 1.7rem;
   padding: 12px;
   opacity: 0.6;
