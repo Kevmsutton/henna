@@ -5,11 +5,11 @@ import MaterialIcon, { colorPalette } from 'material-icons-react';
 class Navbar extends React.Component {
   render() {
     return (
-      <React.Fragment>
+      <div>
         <div className='topNav'>
           <p>HENNA</p>
           <ul>
-            <li className='endLi'>
+            <li className='personal'>
               <MaterialIcon icon='favorite_border' size='40' />
             </li>
             <li>
@@ -21,8 +21,8 @@ class Navbar extends React.Component {
           </ul>
         </div>
 
-        <div className='middleSep' />
-        <div className='catNav'>
+        <div className='topNavYellowUnderLine' />
+        <div className='categoryNav'>
           <ul>
             <li>Category 1</li>
             <li>Category 2</li>
@@ -34,7 +34,7 @@ class Navbar extends React.Component {
             <li>Category 8</li>
           </ul>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

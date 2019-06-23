@@ -39,7 +39,7 @@ const HeroBox = () => {
       <div className='HeroBox'>
         {products.map(product => (
           <div className={'heroProduct'} key={product.id}>
-            <img src={product.image} width='90%' height='80%' alt='heroImg' />
+            <img src={product.image} width='100%' height='80%' alt='heroImg' />
             <p>
               {product.name} - {product.price}
             </p>

@@ -28,40 +28,40 @@
   cursor: pointer;
 }
 
-.endLi {
+.personal {
   margin-top: 1%;
   margin-right: 4%;
   float: right;
   font-size: 3rem;
 }
 
-.middleSep {
+.topNavYellowUnderLine {
   margin-top: 0;
   padding: 0;
   height: 30px;
   background-color: #ffdb15;
 }
 
-.catNav {
+.categoryNav {
   height: 60px;
   background-color: #f3f5f9;
 }
 
-.catNav ul {
+.categoryNav ul {
   list-style-type: none;
   margin: 0;
   text-align: center;
   padding: 0;
 }
 
-.catNav li {
+.categoryNav li {
   display: inline-block;
   font-size: 1.7rem;
   padding: 12px;
   opacity: 0.6;
 }
 
-.catNav li:hover {
+.categoryNav li:hover {
   background-color: white;
   cursor: pointer;
 }

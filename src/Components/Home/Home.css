@@ -43,7 +43,6 @@
 .powerProduct {
   height: 100%;
   width: 40%;
-  background-color: white;
   font-size: 3vw;
   background-color: #f3f5f9;
 }
@@ -94,4 +93,41 @@
   position: absolute;
   margin-top: 3%;
   margin-left: 10%;
+}
+
+.designerBlock {
+  display: flex;
+  height: 50vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #ffa38e;
+}
+
+.designerBlock > img {
+  margin-top: 2.5%;
+  margin-left: 7%;
+}
+
+.designerText {
+  margin-top: 2.5%;
+  background-color: white;
+  height: 90%;
+  width: 45%;
+  margin-right: 7%;
+  cursor: pointer;
+}
+
+.designerText p:first-of-type {
+  margin-top: 10%;
+  margin-left: 17.5%;
+  font-size: 5vw;
+  font-weight: bold;
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.designerText p {
+  margin-left: 17.5%;
+  width: 60%;
+  font-size: 2vw;
 }
