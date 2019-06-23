@@ -4,6 +4,7 @@
   background: #f3f5f9;
   margin: 0;
   font-family: 'Philosopher';
+  text-decoration: none;
 }
 
 .topNav p {
@@ -12,6 +13,7 @@
   font-size: 5rem;
   float: left;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .topNav ul {
@@ -26,6 +28,11 @@
   font-size: 3rem;
   padding: 12px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.topNav li:hover {
+  transform: scale(1.2);
 }
 
 .personal {
