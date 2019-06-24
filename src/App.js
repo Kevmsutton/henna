@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
-import shoppingBag from './Components/ShoppingBag/ShoppingBag';
+import ShoppingBag from './Components/ShoppingBag/ShoppingBag';
+import Login from './Components/Login/Login';
+import Favourites from './Components/Favourites/Favourites';
 import { Route } from 'react-router-dom';
 
 class App extends React.Component {
@@ -12,8 +14,9 @@ class App extends React.Component {
       <div className='app'>
         <Navbar />
         <Route exact path='/' component={Home} />
-        <Route path='/shoppingBag' component={shoppingBag} />
-
+        <Route exact path='/shoppingBag' component={ShoppingBag} />
+        <Route exact path='/personalAccount' component={Login} />
+        <Route exact path='/favourites' component={Favourites} />
         <Footer />
       </div>
     );

@@ -3,6 +3,18 @@ import './Navbar.css';
 import MaterialIcon, { colorPalette } from 'material-icons-react';
 import { Link } from 'react-router-dom';
 
+const categories = [
+  { name: 'Sofas' },
+  { name: 'Chairs' },
+  { name: 'Tables' },
+  { name: 'Beds' },
+  { name: 'Lighting' },
+  { name: 'Liefstyle' },
+  { name: 'Garden' },
+  { name: 'Storage' },
+  { name: 'Designer' }
+];
+
 class Navbar extends React.Component {
   render() {
     return (
@@ -33,14 +45,14 @@ class Navbar extends React.Component {
         <div className='topNavYellowUnderLine' />
         <div className='categoryNav'>
           <ul>
-            <li>Category 1</li>
-            <li>Category 2</li>
-            <li>Category 3</li>
-            <li>Category 4</li>
-            <li>Category 5</li>
-            <li>Category 6</li>
-            <li>Category 7</li>
-            <li>Category 8</li>
+            {categories.map(category => (
+              <Link
+                style={{ textDecoration: 'none', color: 'black' }}
+                to={`/${category.name}`}
+              >
+                <li key={category.name}>{category.name}</li>
+              </Link>
+            ))}
           </ul>
         </div>
       </div>

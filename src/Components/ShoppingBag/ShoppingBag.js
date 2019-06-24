@@ -1,9 +1,10 @@
 import React from 'react';
+import './ShoppingBag.css';
 
-class shoppingBag extends React.Component {
+class ShoppingBag extends React.Component {
   render() {
-    return <div>hello</div>;
+    return <div className='shoppingBag'>hello</div>;
   }
 }
 
-export default shoppingBag;
+export default ShoppingBag;
