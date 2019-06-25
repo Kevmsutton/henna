@@ -17,6 +17,8 @@ const categories = [
 
 class Navbar extends React.Component {
   render() {
+    const { handleNavCategoryClick } = this.props;
+    console.log(this.props);
     return (
       <div>
         <div className='topNav'>
@@ -49,8 +51,11 @@ class Navbar extends React.Component {
               <Link
                 style={{ textDecoration: 'none', color: 'black' }}
                 to={`/${category.name}`}
+                key={category.name}
               >
-                <li key={category.name}>{category.name}</li>
+                <li onClick={() => handleNavCategoryClick(category.name)}>
+                  {category.name}
+                </li>
               </Link>
             ))}
           </ul>

@@ -1,0 +1,32 @@
+.productBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.individualProduct {
+  height: 20vw;
+  max-width: 20%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1.7vw;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease-in-out;
+}
+
+.individualProduct:hover {
+  transform: scale(1.05);
+}
+
+.productBox p {
+  width: 70%;
+  height: 10%;
+  margin: 3%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f3f5f9;
+}
