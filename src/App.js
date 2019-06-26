@@ -11,7 +11,10 @@ import ProductList from './Components/ProductList/ProductList';
 
 class App extends React.Component {
   state = {
-    category: null
+    category: null,
+    colourSelector: 'black',
+    priceSelector: 109,
+    materialSelector: 'wood'
   };
 
   handleNavCategoryClick = category => {
@@ -19,6 +22,12 @@ class App extends React.Component {
   };
 
   render() {
+    const {
+      category,
+      colourSelector,
+      priceSelector,
+      materialSelector
+    } = this.state;
     return (
       <div className='app'>
         <Navbar handleNavCategoryClick={this.handleNavCategoryClick} />
@@ -29,7 +38,13 @@ class App extends React.Component {
         <Route
           path={`/${this.state.category}`}
           render={props => (
-            <ProductList {...props} category={this.state.category} />
+            <ProductList
+              {...props}
+              category={category}
+              colourSelector={colourSelector}
+              priceSelector={priceSelector}
+              materialSelector={materialSelector}
+            />
           )}
         />
         <Footer />
