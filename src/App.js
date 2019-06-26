@@ -23,10 +23,15 @@ class App extends React.Component {
       <div className='app'>
         <Navbar handleNavCategoryClick={this.handleNavCategoryClick} />
         <Route exact path='/' component={Home} />
-        <Route exact path='/shoppingBag' component={ShoppingBag} />
-        <Route exact path='/personalAccount' component={Login} />
-        <Route exact path='/favourites' component={Favourites} />
-        <Route exact path='/Lighting' component={ProductList} />
+        <Route path='/shoppingBag' component={ShoppingBag} />
+        <Route path='/personalAccount' component={Login} />
+        <Route path='/favourites' component={Favourites} />
+        <Route
+          path={`/${this.state.category}`}
+          render={props => (
+            <ProductList {...props} category={this.state.category} />
+          )}
+        />
         <Footer />
       </div>
     );

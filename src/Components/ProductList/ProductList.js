@@ -103,8 +103,9 @@ class ProductList extends React.Component {
   };
 
   filteredProducts = () => {
+    console.log(this.props);
     let categoryProducts = this.state.products.filter(product =>
-      product.category.toLowerCase().includes('lighting')
+      product.category.toLowerCase().includes(this.props.category.toLowerCase())
     );
     console.log(categoryProducts);
     return categoryProducts;
