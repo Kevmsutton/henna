@@ -1,0 +1,7 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: blue;
+
+.test {
+  font: $font-stack;
+  background-color: $primary-color;
+}

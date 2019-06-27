@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './Navbar.scss';
 import MaterialIcon, { colorPalette } from 'material-icons-react';
 import { Link } from 'react-router-dom';
 

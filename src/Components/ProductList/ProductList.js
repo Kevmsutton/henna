@@ -6,8 +6,7 @@
 // app will then need to fetch those category products from the API and pass them to product list to be displayed
 
 import React from 'react';
-import './ProductList.css';
-import { exportDefaultSpecifier } from '@babel/types';
+import './ProductList.scss';
 
 class ProductList extends React.Component {
   state = {
@@ -143,14 +142,14 @@ class ProductList extends React.Component {
           product.category
             .toLowerCase()
             .includes(this.props.category.toLowerCase()) &&
-          product.material == this.props.materialSelector
+          product.material === this.props.materialSelector
         );
       } else if (this.props.colourSelector) {
         return (
           product.category
             .toLowerCase()
             .includes(this.props.category.toLowerCase()) &&
-          product.colour == this.props.colourSelector
+          product.colour === this.props.colourSelector
         );
       } else if (
         this.props.colourSelector &&
@@ -161,9 +160,9 @@ class ProductList extends React.Component {
           product.category
             .toLowerCase()
             .includes(this.props.category.toLowerCase()) &&
-          product.colour == this.props.colourSelector &&
+          product.colour === this.props.colourSelector &&
           product.price <= this.props.priceSelector &&
-          product.material == this.props.materialSelector
+          product.material === this.props.materialSelector
         );
       } else {
         return product.category

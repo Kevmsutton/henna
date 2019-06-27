@@ -1,6 +1,6 @@
 import React from 'react';
 import leader from './leader.png';
-import './Home.css';
+import './Home.scss';
 import power from './power.png';
 import Button from '../Button/Button.js';
 import sale from './sale.png';
