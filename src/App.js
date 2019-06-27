@@ -13,8 +13,8 @@ class App extends React.Component {
   state = {
     category: null,
     colourSelector: 'black',
-    priceSelector: 109,
-    materialSelector: 'wood'
+    priceSelector: 10000,
+    materialSelector: 'metal'
   };
 
   handleNavCategoryClick = category => {
