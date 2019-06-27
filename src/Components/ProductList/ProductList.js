@@ -7,6 +7,7 @@
 
 import React from 'react';
 import './ProductList.scss';
+import MaterialIcon from 'material-icons-react';
 
 class ProductList extends React.Component {
   state = {
@@ -175,8 +176,46 @@ class ProductList extends React.Component {
   };
 
   render() {
+    console.log(this.props);
     return (
       <div>
+        <div>
+          <p className='breadCrumb'>
+            <strong>
+              <span className='clickToGo'>HOME </span>
+              <span className='noClickBreadCrumb'>
+                / {this.props.category.toUpperCase()}
+              </span>
+            </strong>
+          </p>
+        </div>
+        <div>
+          <p className='categoryHeading'>
+            <strong>{this.props.category.toUpperCase()}</strong>
+          </p>
+        </div>
+        <div className='filterProductsBy'>
+          <ul className='individualProductFilters'>
+            <li>
+              Colour
+              <p>
+                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+              </p>
+            </li>
+            <li>
+              Material{' '}
+              <p>
+                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+              </p>
+            </li>
+            <li>
+              Price{' '}
+              <p>
+                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+              </p>
+            </li>
+          </ul>
+        </div>
         <div className='productBox'>
           {this.filteredProducts().map(product => (
             <div key={product.id} className='individualProduct'>

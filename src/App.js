@@ -31,7 +31,6 @@ class App extends React.Component {
     } = this.state;
     return (
       <div className='app'>
-        <Header />
         <Navbar handleNavCategoryClick={this.handleNavCategoryClick} />
         <Route exact path='/' component={Home} />
         <Route path='/shoppingBag' component={ShoppingBag} />
@@ -46,6 +45,7 @@ class App extends React.Component {
               colourSelector={colourSelector}
               priceSelector={priceSelector}
               materialSelector={materialSelector}
+              category={category}
             />
           )}
         />

@@ -14,7 +14,6 @@
   margin-top: 2%;
   margin-bottom: 2%;
   font-size: 1.7vw;
-  border: 2px solid rgba(0, 0, 0, 0.1);
   transition: all 0.1s ease-in-out;
 }
 
@@ -29,4 +28,51 @@
   text-align: center;
   display: inline-block;
   background-color: #f3f5f9;
+}
+
+.breadCrumb {
+  margin-left: 3%;
+  font-size: 1.5vw;
+}
+
+.breadCrumb .noClickBreadCrumb {
+  color: grey;
+}
+
+.clickToGo:hover {
+  text-decoration: underline;
+}
+
+.categoryHeading {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 2%;
+  margin-top: 0;
+}
+
+.filterProductsBy {
+  text-align: center;
+}
+
+.filterProductsBy ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  font-size: 2vw;
+  margin-bottom: 2%;
+}
+
+.individualProductFilters li {
+  float: left;
+  list-style-type: none;
+  width: 33%;
+  border: 0.5px solid grey;
+}
+
+.individualProductFilters li p {
+  position: absolute;
+  padding: 0;
+  margin-left: 13%;
+  margin-top: -2.4%;
 }

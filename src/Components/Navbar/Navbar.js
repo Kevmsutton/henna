@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
-import MaterialIcon, { colorPalette } from 'material-icons-react';
+import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 
 const categories = [
