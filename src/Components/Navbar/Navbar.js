@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
+import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
 
 const categories = [
   { name: 'Sofas' },
@@ -28,17 +29,20 @@ class Navbar extends React.Component {
           <ul>
             <Link style={{ textDecoration: 'none' }} to='/favourites'>
               <li className='favourites'>
-                <MaterialIcon icon='favorite_border' size='40' />
+                <MaterialIcon
+                  icon='favorite_border'
+                  size={alterBasedOnDeviceWidth()}
+                />
               </li>
             </Link>
             <Link style={{ textDecoration: 'none' }} to='/shoppingBag'>
               <li>
-                <MaterialIcon icon='work' size='40' />
+                <MaterialIcon icon='work' size={alterBasedOnDeviceWidth()} />
               </li>
             </Link>
             <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
               <li>
-                <MaterialIcon icon='person' size='40' />
+                <MaterialIcon icon='person' size={alterBasedOnDeviceWidth()} />
               </li>
             </Link>
           </ul>

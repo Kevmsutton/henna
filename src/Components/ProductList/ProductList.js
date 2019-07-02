@@ -8,6 +8,7 @@
 import React from 'react';
 import './ProductList.scss';
 import MaterialIcon from 'material-icons-react';
+import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
 
 class ProductList extends React.Component {
   state = {
@@ -199,19 +200,28 @@ class ProductList extends React.Component {
             <li>
               Colour
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+                <MaterialIcon
+                  icon='keyboard_arrow_down'
+                  size={alterBasedOnDeviceWidth()}
+                />
               </p>
             </li>
             <li>
               Material{' '}
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+                <MaterialIcon
+                  icon='keyboard_arrow_down'
+                  size={alterBasedOnDeviceWidth()}
+                />
               </p>
             </li>
             <li>
               Price{' '}
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='50' />
+                <MaterialIcon
+                  icon='keyboard_arrow_down'
+                  size={alterBasedOnDeviceWidth()}
+                />
               </p>
             </li>
           </ul>
