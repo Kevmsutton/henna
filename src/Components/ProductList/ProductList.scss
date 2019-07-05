@@ -59,7 +59,7 @@
   margin: 0;
   padding: 0;
   width: 50%;
-  font-size: 2vw;
+  font-size: 35px;
   margin-bottom: 2%;
 }
 
@@ -73,7 +73,12 @@
 .individualProductFilters li p {
   position: absolute;
   padding: 0;
-  margin-left: 12%;
-  margin-top: -1.9%;
-  font-size: 1vw;
+  margin-left: 14%;
+  margin-top: -33px;
+}
+
+@media screen and (max-width: 600px) {
+  .individualProductFilters li p {
+    background-color: blue;
+  }
 }

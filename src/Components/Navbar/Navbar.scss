@@ -3,7 +3,6 @@
   height: 80px;
   background: #f3f5f9;
   margin: 0;
-  font-family: 'Philosopher';
   text-decoration: none;
 }
 
@@ -52,6 +51,7 @@
 .categoryNav {
   height: 60px;
   background-color: #f3f5f9;
+  overflow: hidden;
 }
 
 .categoryNav ul {
@@ -61,14 +61,58 @@
   padding: 0;
 }
 
-.categoryNav li {
-  display: inline-block;
-  font-size: 1.7rem;
-  padding: 12px;
-  opacity: 0.6;
-}
+// .categoryNav li {
+//   display: inline-block;
+//   font-size: 1.7rem;
+//   padding: 12px;
+//   opacity: 0.6;
+// }
 
 .categoryNav li:hover {
   background-color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .topNav {
+    margin-bottom: 0;
+    height: 60px;
+    background: #f3f5f9;
+    margin: 0;
+    text-decoration: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .topNav p {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .topNavYellowUnderLine {
+    margin-top: 0;
+    padding: 0;
+    height: 10px;
+    background-color: #ffdb15;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .topNav li {
+    margin-top: 10px;
+    padding: 0;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1000px) {
+  .categoryNav li {
+    display: inline-block;
+    font-size: 1.7rem;
+    padding: 12px;
+    opacity: 0.6;
+  }
 }

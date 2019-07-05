@@ -3,6 +3,7 @@ import './Navbar.scss';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
+import MediaQuery from 'react-responsive';
 
 const categories = [
   { name: 'Sofas' },
@@ -10,7 +11,7 @@ const categories = [
   { name: 'Tables' },
   { name: 'Beds' },
   { name: 'Lighting' },
-  { name: 'Liefstyle' },
+  { name: 'Lifestyle' },
   { name: 'Garden' },
   { name: 'Storage' },
   { name: 'Designer' }
@@ -18,6 +19,7 @@ const categories = [
 
 class Navbar extends React.Component {
   render() {
+    let windowSize = window.innerWidth;
     const { handleNavCategoryClick } = this.props;
     console.log(this.props);
     return (
@@ -29,25 +31,24 @@ class Navbar extends React.Component {
           <ul>
             <Link style={{ textDecoration: 'none' }} to='/favourites'>
               <li className='favourites'>
-                <MaterialIcon
-                  icon='favorite_border'
-                  size={alterBasedOnDeviceWidth()}
-                />
+                <MaterialIcon icon='favorite_border' size='40' />
               </li>
             </Link>
             <Link style={{ textDecoration: 'none' }} to='/shoppingBag'>
               <li>
-                <MaterialIcon icon='work' size={alterBasedOnDeviceWidth()} />
+                <MaterialIcon icon='work' size='40' />
               </li>
             </Link>
             <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
               <li>
-                <MaterialIcon icon='person' size={alterBasedOnDeviceWidth()} />
+                <MaterialIcon icon='person' size='40' />
               </li>
             </Link>
+            <li>
+              <MaterialIcon icon='reorder' size='40' />
+            </li>
           </ul>
         </div>
-
         <div className='topNavYellowUnderLine' />
         <div className='categoryNav'>
           <ul>
@@ -57,11 +58,16 @@ class Navbar extends React.Component {
                 to={`/${category.name}`}
                 key={category.name}
               >
-                <li onClick={() => handleNavCategoryClick(category.name)}>
-                  {category.name}
-                </li>
+                <MediaQuery query='(min-device-width: 1024px)'>
+                  <li onClick={() => handleNavCategoryClick(category.name)}>
+                    {category.name}
+                  </li>
+                </MediaQuery>
               </Link>
             ))}
+            <MediaQuery query='(max-device-width: 1023px)'>
+              <li>Category</li>
+            </MediaQuery>
           </ul>
         </div>
       </div>
