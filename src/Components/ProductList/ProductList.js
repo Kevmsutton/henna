@@ -191,9 +191,13 @@ class ProductList extends React.Component {
             </strong>
           </p>
         </div>
-        <div>
-          <p className='categoryHeading'>
+        <div className='categoryHeading'>
+          <p>
             <strong>{this.props.category.toUpperCase()}</strong>
+          </p>
+          <p className='filterText'> Filter</p>
+          <p className='filterIcon'>
+            <MaterialIcon icon='keyboard_arrow_down' size='40' />
           </p>
         </div>
         <div className='filterProductsBy'>
