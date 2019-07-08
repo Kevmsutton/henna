@@ -205,19 +205,19 @@ class ProductList extends React.Component {
             <li>
               Colour
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='30' />
+                <MaterialIcon icon='keyboard_arrow_down' size='40' />
               </p>
             </li>
             <li>
               Material
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='30' />
+                <MaterialIcon icon='keyboard_arrow_down' size='40' />
               </p>
             </li>
             <li>
               Price
               <p>
-                <MaterialIcon icon='keyboard_arrow_down' size='30' />
+                <MaterialIcon icon='keyboard_arrow_down' size='40' />
               </p>
             </li>
           </ul>
