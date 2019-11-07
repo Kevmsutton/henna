@@ -9,6 +9,7 @@ import React from 'react';
 import './ProductList.scss';
 import MaterialIcon from 'material-icons-react';
 import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
+import { Link } from 'react-router-dom';
 
 class ProductList extends React.Component {
   state = {
@@ -230,15 +231,21 @@ class ProductList extends React.Component {
               onClick={() => handleProductClick(product)}
               className='individualProduct'
             >
-              <img
-                src={product.image}
-                width='100%'
-                height='80%'
-                alt='heroImg'
-              />
-              <p>
-                {product.name} - £{product.price}
-              </p>
+              <Link
+                style={{ textDecoration: 'none', color: 'black' }}
+                to={`/${product.name}`}
+                key={product.name}
+              >
+                <img
+                  src={product.image}
+                  width='100%'
+                  height='80%'
+                  alt='heroImg'
+                />
+                <p>
+                  {product.name} - £{product.price}
+                </p>
+              </Link>
             </div>
           ))}
         </div>

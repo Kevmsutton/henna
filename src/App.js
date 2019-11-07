@@ -17,7 +17,7 @@ class App extends React.Component {
     colourSelector: 'black',
     priceSelector: 10000,
     materialSelector: 'metal',
-    individualProduct: ''
+    individualProduct: null
   };
 
   handleNavCategoryClick = category => {
@@ -26,7 +26,7 @@ class App extends React.Component {
 
   handleProductClick = product => {
     console.log(product);
-    this.setState({ individualProduct: product.name });
+    this.setState({ individualProduct: product.name, category: null });
   };
 
   render() {
@@ -34,7 +34,8 @@ class App extends React.Component {
       category,
       colourSelector,
       priceSelector,
-      materialSelector
+      materialSelector,
+      individualProduct
     } = this.state;
     return (
       <div className='app'>
@@ -43,7 +44,12 @@ class App extends React.Component {
         <Route path='/shoppingBag' component={ShoppingBag} />
         <Route path='/personalAccount' component={Login} />
         <Route path='/favourites' component={Favourites} />
-        <Route path='/productPage' component={Product} />
+        <Route
+          path={`/${this.state.individualProduct}`}
+          render={props => (
+            <Product {...props} individualProduct={individualProduct} />
+          )}
+        />
         <Route
           path={`/${this.state.category}`}
           render={props => (
