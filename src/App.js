@@ -9,17 +9,24 @@ import Favourites from './Components/Favourites/Favourites';
 import { Route } from 'react-router-dom';
 import ProductList from './Components/ProductList/ProductList';
 import Header from './Components/Header/Header';
+import Product from './Components/ProductPage/product';
 
 class App extends React.Component {
   state = {
     category: null,
     colourSelector: 'black',
     priceSelector: 10000,
-    materialSelector: 'metal'
+    materialSelector: 'metal',
+    individualProduct: ''
   };
 
   handleNavCategoryClick = category => {
     this.setState({ category: category });
+  };
+
+  handleProductClick = product => {
+    console.log(product);
+    this.setState({ individualProduct: product.name });
   };
 
   render() {
@@ -36,6 +43,7 @@ class App extends React.Component {
         <Route path='/shoppingBag' component={ShoppingBag} />
         <Route path='/personalAccount' component={Login} />
         <Route path='/favourites' component={Favourites} />
+        <Route path='/productPage' component={Product} />
         <Route
           path={`/${this.state.category}`}
           render={props => (
@@ -46,6 +54,7 @@ class App extends React.Component {
               priceSelector={priceSelector}
               materialSelector={materialSelector}
               category={category}
+              handleProductClick={this.handleProductClick}
             />
           )}
         />

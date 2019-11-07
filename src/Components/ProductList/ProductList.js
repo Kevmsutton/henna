@@ -115,7 +115,7 @@ class ProductList extends React.Component {
       },
       {
         id: 11,
-        name: 'SideTable',
+        name: 'WoodTable',
         price: 109,
         category: 'Lighting',
         material: 'wood',
@@ -179,6 +179,7 @@ class ProductList extends React.Component {
 
   render() {
     console.log(this.props);
+    const { handleProductClick } = this.props;
     return (
       <div>
         <div>
@@ -224,7 +225,11 @@ class ProductList extends React.Component {
         </div>
         <div className='productBox'>
           {this.filteredProducts().map(product => (
-            <div key={product.id} className='individualProduct'>
+            <div
+              key={product.id}
+              onClick={() => handleProductClick(product)}
+              className='individualProduct'
+            >
               <img
                 src={product.image}
                 width='100%'
