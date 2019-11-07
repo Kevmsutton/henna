@@ -17,7 +17,8 @@ class App extends React.Component {
     colourSelector: 'black',
     priceSelector: 10000,
     materialSelector: 'metal',
-    individualProduct: null
+    individualProduct: null,
+    fullProduct: null
   };
 
   handleNavCategoryClick = category => {
@@ -26,7 +27,8 @@ class App extends React.Component {
 
   handleProductClick = product => {
     console.log(product);
-    this.setState({ individualProduct: product.name, category: null });
+    this.setState({ individualProduct: product.name });
+    this.setState({ fullProduct: product });
   };
 
   render() {
@@ -35,7 +37,8 @@ class App extends React.Component {
       colourSelector,
       priceSelector,
       materialSelector,
-      individualProduct
+      individualProduct,
+      fullProduct
     } = this.state;
     return (
       <div className='app'>
@@ -47,7 +50,11 @@ class App extends React.Component {
         <Route
           path={`/${this.state.individualProduct}`}
           render={props => (
-            <Product {...props} individualProduct={individualProduct} />
+            <Product
+              {...props}
+              individualProduct={individualProduct}
+              fullProduct={fullProduct}
+            />
           )}
         />
         <Route

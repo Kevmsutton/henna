@@ -2,7 +2,8 @@ import React from 'react';
 
 class Product extends React.Component {
   render() {
-    return <div>Hi</div>;
+    const { fullProduct } = this.props;
+    return <div>{fullProduct.name}</div>;
   }
 }
 
