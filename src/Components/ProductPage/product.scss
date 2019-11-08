@@ -1,5 +1,6 @@
 .productPageContainer {
   padding: 40px;
+  color: #7e7b73;
 }
 
 .productWrapper {
@@ -56,11 +57,36 @@
 
 .productBreadCrumb {
   font-size: 1.5vw;
-  margin: 20px;
 }
 
 .productDetailWrapper {
   padding: 40px;
-  border: 2px solid black;
-  height: 200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #7e7b73;
+}
+
+.extraDetailOne {
+  width: 40%;
+  padding-left: 150px;
+  font-size: 1.5vw;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.extraDetailOne p {
+}
+
+.extraDetailTwo {
+  width: 40%;
+  padding-left: 150px;
+  font-size: 1.5vw;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.extraDetailTwo p {
 }
