@@ -9,6 +9,9 @@ class Product extends React.Component {
     console.log(fullProduct);
     return (
       <div className='productPageContainer'>
+        <div className='productBreadCrumb'>
+          Home/{fullProduct.category}/{fullProduct.name}
+        </div>
         <div className='productWrapper'>
           <div className='productImage'>
             <img
@@ -26,9 +29,13 @@ class Product extends React.Component {
             <p>{fullProduct.description}</p>
             <h2>£{fullProduct.price}</h2>
             <ProductButton></ProductButton>
-            <div></div>
+            <div className='colorWrapper'>
+              <div className='colorOne'></div>
+              <div className='colorTwo'></div>
+            </div>
           </div>
         </div>
+        <div className='productDetailWrapper'></div>
       </div>
     );
   }
