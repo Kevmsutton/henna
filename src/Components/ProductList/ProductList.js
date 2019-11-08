@@ -21,6 +21,7 @@ class ProductList extends React.Component {
         category: 'Sofas',
         material: 'wood',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -31,6 +32,7 @@ class ProductList extends React.Component {
         category: 'Sofas',
         material: 'metal',
         colour: 'white',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -41,6 +43,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'wood',
         colour: 'white',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -51,6 +54,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'plastic',
         colour: 'white',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -61,6 +65,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'chrome',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -71,6 +76,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'chrome',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -91,6 +97,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'wood',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -101,6 +108,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'wood',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -111,6 +119,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'wood',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       },
@@ -121,6 +130,7 @@ class ProductList extends React.Component {
         category: 'Lighting',
         material: 'wood',
         colour: 'black',
+        description: 'Side table in grey and bronze',
         image:
           'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
       }

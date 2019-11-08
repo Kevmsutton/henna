@@ -1,0 +1,32 @@
+.productPageContainer {
+}
+
+.productWrapper {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productImage {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 60%;
+}
+
+.productImage img {
+}
+
+.productDetail {
+  padding: 40px;
+  font-size: 1.5vw;
+  background-color: #f3f5f9;
+  height: 400px;
+  width: 30%;
+}
+
+.heartIcon {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
