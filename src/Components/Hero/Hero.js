@@ -43,7 +43,7 @@ const HeroBox = () => {
               <img
                 src={product.image}
                 width='100%'
-                height='80%'
+                height='auto'
                 alt='heroImg'
               />
               <p>

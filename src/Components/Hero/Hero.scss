@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .HeroBox {
@@ -12,7 +14,8 @@
 }
 
 .heroCard {
-  width: 25%;
+  width: 23%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,6 +24,7 @@
 @media only screen and (max-width: 600px) {
   .heroCard {
     width: 50%;
+    padding: 0;
   }
 }
 

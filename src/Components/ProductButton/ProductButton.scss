@@ -1,8 +1,24 @@
 .productButton {
-  height: 30px;
-  width: 200px;
   border: 2px solid black;
   padding: 5px;
   font-size: 2vw;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .productButton {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .productButtonInner {
+    width: 30%;
+    font-size: 3vw;
+    border: 2px solid black;
+    padding: 5px;
+  }
 }

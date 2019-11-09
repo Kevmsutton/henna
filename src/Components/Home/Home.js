@@ -14,7 +14,7 @@ console.log(window.innerHeight);
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className='homeContain'>
         <div className='imageDiv'>
           <img src={leader} width='100%' height='auto' alt='largeImg' />
           <p className='leaderP'>
