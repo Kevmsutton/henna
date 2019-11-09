@@ -38,11 +38,18 @@ const HeroBox = () => {
     <div className='heroContainer'>
       <div className='HeroBox'>
         {products.map(product => (
-          <div className={'heroProduct'} key={product.id}>
-            <img src={product.image} width='100%' height='80%' alt='heroImg' />
-            <p>
-              {product.name} - {product.price}
-            </p>
+          <div className='heroCard'>
+            <div className={'heroProduct'} key={product.id}>
+              <img
+                src={product.image}
+                width='100%'
+                height='80%'
+                alt='heroImg'
+              />
+              <p>
+                {product.name} - {product.price}
+              </p>
+            </div>
           </div>
         ))}
       </div>
