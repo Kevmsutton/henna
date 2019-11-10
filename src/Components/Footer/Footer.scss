@@ -8,14 +8,21 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .footer {
+    height: 30%;
+    font-size: 3vw;
+  }
+}
+
 .helpDiv {
-  width: 25%;
+  width: 30%;
 }
 
 .help {
   margin-left: 13%;
   margin-bottom: 0;
-  font-size: 2.7vw;
+  font-size: 3vw;
   margin-top: 0;
 }
 
@@ -37,23 +44,23 @@
 }
 
 .aboutDiv {
-  width: 25%;
+  width: 30%;
 }
 
 .about {
   margin-left: 13%;
   margin-bottom: 0;
-  font-size: 2.7vw;
+  font-size: 3vw;
   margin-top: 0;
 }
 
 .moreDiv {
-  width: 25%;
+  width: 30%;
 }
 
 .more {
   margin-left: 13%;
   margin-bottom: 0;
-  font-size: 2.7vw;
+  font-size: 3vw;
   margin-top: 0;
 }

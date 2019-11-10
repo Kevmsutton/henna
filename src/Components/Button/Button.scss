@@ -8,6 +8,7 @@
   text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .buttonInner {
   position: absolute;
   padding: 2%;
@@ -26,9 +27,37 @@
   margin-top: 33%;
 }
 
+@media only screen and (max-width: 600px) {
+  .saleButton .buttonOuter {
+    margin-left: 55%;
+    margin-top: 33%;
+  }
+}
+
 .saleButton .buttonInner {
   position: absolute;
   margin-left: 8%;
   font-size: 1.6vw;
   border: 0.15vw solid black;
+}
+
+@media only screen and (max-width: 600px) {
+  .saleButton .buttonInner {
+    font-size: 3vw;
+    margin-left: 2%;
+    padding: 3%;
+    background-color: red;
+    opacity: 0.95;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonInner {
+    font-size: 3vw;
+    width: 60px;
+    border: 1px solid black;
+    height: 100%;
+    padding: 1%;
+  }
 }
