@@ -1,0 +1,23 @@
+.bigBox {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.medBox {
+  margin-top: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.littleBox {
+  margin-top: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+}

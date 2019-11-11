@@ -1,9 +1,23 @@
+.productListContainer {
+  overflow: hidden;
+}
+
 .productBox {
   width: 100%;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .productBox {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+  }
 }
 
 .productBox p {
@@ -37,6 +51,12 @@
     margin-bottom: 2%;
     font-size: 1.7vw;
     transition: all 0.1s ease-in-out;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .individualProduct {
+      width: 80%;
+    }
   }
 
   .categoryHeading {

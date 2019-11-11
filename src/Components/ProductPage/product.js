@@ -18,7 +18,7 @@ class Product extends React.Component {
               src={fullProduct.image}
               alt={fullProduct.name}
               width='80%'
-              height='auto'
+              height='80%'
             />
           </div>
           <div className='productDetail'>
