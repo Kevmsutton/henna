@@ -33,13 +33,12 @@ const products = [
 ];
 
 const HeroBox = () => {
-  console.log(products);
   return (
     <div className='heroContainer'>
       <div className='HeroBox'>
         {products.map(product => (
-          <div className='heroCard'>
-            <div className={'heroProduct'} key={product.id}>
+          <div className='heroCard' key={product.id}>
+            <div className={'heroProduct'}>
               <img
                 src={product.image}
                 width='100%'

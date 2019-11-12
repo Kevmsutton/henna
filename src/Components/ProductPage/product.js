@@ -6,7 +6,6 @@ import MaterialIcon from 'material-icons-react';
 class Product extends React.Component {
   render() {
     const { fullProduct } = this.props;
-    console.log(fullProduct);
     return (
       <div className='productPageContainer'>
         <div className='productBreadCrumb'>
@@ -36,19 +35,51 @@ class Product extends React.Component {
           </div>
         </div>
         <div className='productDetailWrapper'>
-          <div className='extraDetailOne'>
-            <h3>Dimensions Detail</h3>
-            <p>Width : Y anomda</p>
-            <p>Height : Z bit more</p>
-            <p>Depth : B some more</p>
-            <p>Other : N some more</p>
-          </div>
-          <div className='extraDetailTwo'>
-            <h3>Product detail</h3>
-            <p>Detail 1 : X and some</p>
-            <p>Detail 2 : Z bit more</p>
-            <p>Detail 3 : B and more</p>
-            <p>Other : 5 and more</p>
+          <div className='productDetailInner'>
+            <div className='extraDetailOne'>
+              <h3>Dimensions Detail</h3>
+              <p>
+                <strong>Height</strong>....................{' '}
+                {fullProduct.dimensions.Height}cm
+              </p>
+              <p>
+                <strong>Width</strong>.....................{' '}
+                {fullProduct.dimensions.Width}cm
+              </p>
+              <p>
+                <strong>Depth</strong>.....................{' '}
+                {fullProduct.dimensions.Depth}cm
+              </p>
+              <p>
+                <strong>Seat Height</strong>...............{' '}
+                {fullProduct.dimensions.Seat}cm
+              </p>
+              <p>
+                <strong>Arm Height</strong>................{' '}
+                {fullProduct.dimensions.Arm}cm
+              </p>
+            </div>
+            <div className='extraDetailTwo'>
+              <h3>Product Detail</h3>
+              <p>
+                <strong>Frame:</strong> {fullProduct.longMaterial.Frame}
+              </p>
+              <p>
+                <strong>Seat Cushion:</strong>{' '}
+                {fullProduct.longMaterial.SeatCushion}
+              </p>
+              <p>
+                <strong>Back Cushion:</strong>{' '}
+                {fullProduct.longMaterial.BackCushion}
+              </p>
+              <p>
+                <strong>Legs:</strong> {fullProduct.longMaterial.Legs}
+              </p>
+              <p>
+                <strong>Upholstery:</strong>{' '}
+                {fullProduct.longMaterial.Upholstery}
+              </p>
+            </div>
           </div>
         </div>
       </div>

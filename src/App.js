@@ -8,7 +8,6 @@ import Login from './Components/Login/Login';
 import Favourites from './Components/Favourites/Favourites';
 import { Route } from 'react-router-dom';
 import ProductList from './Components/ProductList/ProductList';
-import Header from './Components/Header/Header';
 import Product from './Components/ProductPage/product';
 
 class App extends React.Component {
@@ -26,7 +25,6 @@ class App extends React.Component {
   };
 
   handleProductClick = product => {
-    console.log(product);
     this.setState({ individualProduct: product.name });
     this.setState({ fullProduct: product });
   };
@@ -66,7 +64,6 @@ class App extends React.Component {
               colourSelector={colourSelector}
               priceSelector={priceSelector}
               materialSelector={materialSelector}
-              category={category}
               handleProductClick={this.handleProductClick}
             />
           )}

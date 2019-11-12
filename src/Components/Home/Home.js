@@ -7,10 +7,6 @@ import sale from './sale.png';
 import HeroBox from '../Hero/Hero.js';
 import designer from './designer.png';
 
-console.log(leader);
-console.log(window.innerWidth);
-console.log(window.innerHeight);
-
 class Home extends React.Component {
   render() {
     return (

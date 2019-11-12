@@ -8,7 +8,6 @@
 import React from 'react';
 import './ProductList.scss';
 import MaterialIcon from 'material-icons-react';
-import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
 import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
 import Products from '../productFeed.js';
@@ -20,8 +19,6 @@ class ProductList extends React.Component {
   };
 
   filteredProducts = () => {
-    console.log(this.props.materialSelector);
-    console.log(Products);
     // if their is a price i only want to show products less than that price
     // if their is a material selected i only want to show products with that material
     // if their is a colour selected only products with that colour
@@ -66,12 +63,10 @@ class ProductList extends React.Component {
           .includes(this.props.category.toLowerCase());
       }
     });
-    console.log(categoryProducts);
     return categoryProducts;
   };
 
   render() {
-    console.log(this.props);
     const { handleProductClick } = this.props;
     return (
       <div className='productListContainer'>

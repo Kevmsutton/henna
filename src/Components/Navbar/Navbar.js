@@ -2,7 +2,6 @@ import React from 'react';
 import './Navbar.scss';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
-import alterBasedOnDeviceWidth from '../alterBasedOnDeviceWidth.js';
 import MediaQuery from 'react-responsive';
 
 const categories = [
@@ -19,9 +18,7 @@ const categories = [
 
 class Navbar extends React.Component {
   render() {
-    let windowSize = window.innerWidth;
     const { handleNavCategoryClick } = this.props;
-    console.log(this.props);
     return (
       <div>
         <div className='topNav'>

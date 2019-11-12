@@ -1,124 +1,290 @@
-import white_table from '../assets/white_table.png';
+import Matera from '../assets/Matera.png';
+import Bloomsbury from '../assets/Bloomsbury.png';
+import Brompton from '../assets/Brompton.png';
+import Chill from '../assets/Chill.png';
+import Eton from '../assets/Eton.png';
+import Hepburn from '../assets/Hepburn.png';
+import Balmoral from '../assets/Balmoral.png';
+import Mistral from '../assets/Mistral.png';
+import Richmond from '../assets/Richmond.png';
+import Snooze from '../assets/Snooze.png';
+import Tailor from '../assets/Tailor.png';
+import Torino from '../assets/Torino.png';
+import Wallis from '../assets/Wallis.png';
 
 const Products = [
   {
     id: 1,
-    name: 'SideTable',
-    price: 1000,
+    name: 'Matera',
+    price: 2789,
     category: 'Sofas',
-    material: 'wood',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image: white_table
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Matera,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 2,
-    name: 'SideTable',
-    price: 159,
+    name: 'Bloomsbury',
+    price: 2109,
     category: 'Sofas',
-    material: 'metal',
-    colour: 'white',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Bloomsbury,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 3,
-    name: 'SideTable',
-    price: 2000,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'white',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Brompton',
+    price: 2009,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Brompton,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 4,
-    name: 'SideTable',
-    price: 159,
-    category: 'Lighting',
-    material: 'plastic',
-    colour: 'white',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Chill',
+    price: 1899,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Chill,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 5,
-    name: 'SideTable',
-    price: 209,
-    category: 'Lighting',
-    material: 'chrome',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Eton',
+    price: 999,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Eton,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 6,
-    name: 'SideTable',
-    price: 209,
-    category: 'Lighting',
-    material: 'chrome',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Hepburn',
+    price: 1629,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Hepburn,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 7,
-    name: 'SideTable',
-    price: 209,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'black',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Balmoral',
+    price: 1209,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Balmoral,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 8,
-    name: 'SideTable',
-    price: 109,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Mistral',
+    price: 1799,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Mistral,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 9,
-    name: 'SideTable',
-    price: 162,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Richmond',
+    price: 1399,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Richmond,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 10,
-    name: 'SideTable',
-    price: 109,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Snooze',
+    price: 1459,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Snooze,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   },
   {
     id: 11,
-    name: 'WoodTable',
-    price: 109,
-    category: 'Lighting',
-    material: 'wood',
-    colour: 'black',
-    description: 'Side table in grey and bronze',
-    image:
-      'https://res-4.cloudinary.com/made-com/image/upload/a_auto,b_transparent,c_pad,d_made.svg,dpr_1.0,f_auto,h_550,q_auto:best,w_1050/v4/catalog/product/asset/8/a/e/f/8aefd9f76750e7c9a1ac2162f93a338ca3819c20_TBLCAT020NAT_UK_Catania_Garden_Bar_Polywood_LB01.jpg'
+    name: 'Tailor',
+    price: 1679,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Tailor,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
+  },
+  {
+    id: 12,
+    name: 'Torino',
+    price: 1589,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Torino,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
+  },
+  {
+    id: 13,
+    name: 'Wallis',
+    price: 1899,
+    category: 'Sofas',
+    shortmaterial: ['metal', 'leather'],
+    colour: 'brown',
+    description: 'Matera 3 Seater Sofa Daino Leather Treacle',
+    longDescription:
+      'Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.',
+    image: Wallis,
+    dimensions: { Height: 82, Width: 200, Depth: 87, Seat: 45, Arm: 72 },
+    longMaterial: {
+      Frame: 'Hardwood beech and birch multiply',
+      SeatCushion: 'High density polyurethane foam, memory foam and feathers',
+      BackCushion: 'Mollapiuma mix of feather and polyurethane',
+      Legs: 'Black matt lacquered metal, removable',
+      Upholstery:
+        'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
+    }
   }
 ];
 
