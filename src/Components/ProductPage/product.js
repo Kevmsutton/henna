@@ -5,7 +5,8 @@ import MaterialIcon from 'material-icons-react';
 
 class Product extends React.Component {
   render() {
-    const { fullProduct } = this.props;
+    const { fullProduct, addProductToBasket } = this.props;
+    console.log(addProductToBasket);
     return (
       <div className='productPageContainer'>
         <div className='productBreadCrumb'>
@@ -27,7 +28,9 @@ class Product extends React.Component {
             <h2>{fullProduct.name}</h2>
             <p>{fullProduct.description}</p>
             <h2>£{fullProduct.price}</h2>
-            <ProductButton></ProductButton>
+            <div onClick={() => addProductToBasket(fullProduct)}>
+              <ProductButton></ProductButton>
+            </div>
             <div className='colorWrapper'>
               <div className='colorOne'></div>
               <div className='colorTwo'></div>

@@ -11,6 +11,7 @@ import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
 import Products from '../productFeed.js';
+import BasketListBox from '../BasketListBox/BasketListBox.js';
 
 class ProductList extends React.Component {
   state = {
@@ -128,7 +129,7 @@ class ProductList extends React.Component {
                     src={product.image}
                     width='80%'
                     height='85%'
-                    alt='heroImg'
+                    alt='productImg'
                   />
                   <p>
                     {product.name} - £{product.price}
@@ -138,6 +139,7 @@ class ProductList extends React.Component {
             ))}
           </div>
         </div>
+        {/* <BasketListBox></BasketListBox> */}
       </div>
     );
   }

@@ -17,7 +17,14 @@ class App extends React.Component {
     priceSelector: 10000,
     materialSelector: 'metal',
     individualProduct: null,
-    fullProduct: null
+    fullProduct: null,
+    basket: []
+  };
+
+  addProductToBasket = fullProduct => {
+    this.setState(previousState => ({
+      basket: [...previousState.basket, fullProduct]
+    }));
   };
 
   handleNavCategoryClick = category => {
@@ -36,13 +43,17 @@ class App extends React.Component {
       priceSelector,
       materialSelector,
       individualProduct,
-      fullProduct
+      fullProduct,
+      basket
     } = this.state;
     return (
       <div className='app'>
         <Navbar handleNavCategoryClick={this.handleNavCategoryClick} />
         <Route exact path='/' component={Home} />
-        <Route path='/shoppingBag' component={ShoppingBag} />
+        <Route
+          path='/shoppingBag'
+          render={props => <ShoppingBag {...props} basket={basket} />}
+        />
         <Route path='/personalAccount' component={Login} />
         <Route path='/favourites' component={Favourites} />
         <Route
@@ -52,6 +63,7 @@ class App extends React.Component {
               {...props}
               individualProduct={individualProduct}
               fullProduct={fullProduct}
+              addProductToBasket={this.addProductToBasket}
             />
           )}
         />
