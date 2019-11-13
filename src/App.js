@@ -21,6 +21,16 @@ class App extends React.Component {
     basket: []
   };
 
+  sumOfBasketItems = () => {
+    let total = 0;
+    const basket = this.state.basket;
+    let totalArray = basket.map(item => item.price);
+    for (let i = 0; i < totalArray.length; i++) {
+      total += totalArray[i];
+    }
+    return total;
+  };
+
   addProductToBasket = fullProduct => {
     this.setState(previousState => ({
       basket: [...previousState.basket, fullProduct]
@@ -52,7 +62,13 @@ class App extends React.Component {
         <Route exact path='/' component={Home} />
         <Route
           path='/shoppingBag'
-          render={props => <ShoppingBag {...props} basket={basket} />}
+          render={props => (
+            <ShoppingBag
+              {...props}
+              basket={basket}
+              sumOfBasketItems={this.sumOfBasketItems()}
+            />
+          )}
         />
         <Route path='/personalAccount' component={Login} />
         <Route path='/favourites' component={Favourites} />

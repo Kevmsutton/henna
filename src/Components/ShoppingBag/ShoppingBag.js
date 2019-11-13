@@ -1,9 +1,18 @@
 import React from 'react';
 import './ShoppingBag.scss';
+import BasketListBox from '../BasketListBox/BasketListBox';
 
 class ShoppingBag extends React.Component {
   render() {
-    return <div className='shoppingBag'>hello</div>;
+    const { basket, sumOfBasketItems } = this.props;
+    return (
+      <div className='shoppingBag'>
+        <BasketListBox
+          basket={basket}
+          sumOfBasketItems={sumOfBasketItems}
+        ></BasketListBox>
+      </div>
+    );
   }
 }
 

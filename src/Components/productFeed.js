@@ -32,7 +32,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 2,
@@ -53,7 +54,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 3,
@@ -74,7 +76,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 4,
@@ -95,7 +98,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 5,
@@ -116,7 +120,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 6,
@@ -137,7 +142,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 7,
@@ -158,7 +164,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 8,
@@ -179,7 +186,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 9,
@@ -200,7 +208,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 10,
@@ -221,7 +230,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 11,
@@ -242,7 +252,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 12,
@@ -263,7 +274,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   },
   {
     id: 13,
@@ -284,7 +296,8 @@ const Products = [
       Legs: 'Black matt lacquered metal, removable',
       Upholstery:
         'Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools'
-    }
+    },
+    delivery: '5-6 weeks'
   }
 ];
 

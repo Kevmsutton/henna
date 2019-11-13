@@ -1,31 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './BasketListBox.css';
 
 class BasketListBox extends React.Component {
   render() {
+    const { basket, sumOfBasketItems } = this.props;
     return (
-      <div className='productBoxWrapper'>
-        <div className='productBox'>
-          {this.filteredProducts().map(product => (
-            <div key={product.id} className='individualProduct'>
-              <Link
-                style={{ textDecoration: 'none', color: 'black' }}
-                to={`/${product.name}`}
-                key={product.name}
-              >
-                <img
-                  src={product.image}
-                  width='80%'
-                  height='85%'
-                  alt='productImg'
-                />
-                <p>
-                  {product.name} - £{product.price}
-                </p>
-              </Link>
+      <div className='basketProductWrapper'>
+        {basket.map(product => (
+          <div key={product.id} className='individualBasketProduct'>
+            <div className='imgBlock'>
+              <img
+                src={product.image}
+                width='100%'
+                height='100%'
+                alt='productImg'
+              />
             </div>
-          ))}
-        </div>
+            <div className='shortDescBlock'>
+              <p>
+                {product.name}: {product.description} {product.colour}
+              </p>
+            </div>
+            <div className='deliveryBlock'>
+              <p>{product.delivery}</p>
+            </div>
+            <div className='priceBlock'>
+              <p>£{product.price}</p>
+            </div>
+            <div className='priceBlock'>
+              <p>£{sumOfBasketItems}</p>
+            </div>
+          </div>
+        ))}
       </div>
     );
   }
