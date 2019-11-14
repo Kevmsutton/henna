@@ -3,7 +3,8 @@ import './BasketListBox.css';
 
 class BasketListBox extends React.Component {
   render() {
-    const { basket, sumOfBasketItems } = this.props;
+    const { basket, removeBasketItem } = this.props;
+    console.log(this.props);
     return (
       <div className='basketProductWrapper'>
         {basket.map(product => (
@@ -16,19 +17,21 @@ class BasketListBox extends React.Component {
                 alt='productImg'
               />
             </div>
-            <div className='shortDescBlock'>
-              <p>
-                {product.name}: {product.description} {product.colour}
-              </p>
-            </div>
-            <div className='deliveryBlock'>
-              <p>{product.delivery}</p>
-            </div>
-            <div className='priceBlock'>
-              <p>£{product.price}</p>
-            </div>
-            <div className='priceBlock'>
-              <p>£{sumOfBasketItems}</p>
+            <div className='productDescElements'>
+              <div className='shortDescBlock'>
+                <p>
+                  {product.name}: {product.description} {product.colour}
+                </p>
+              </div>
+              <div className='deliveryBlock'>
+                <p>Delivery: {product.delivery}</p>
+              </div>
+              <div className='priceBlock'>
+                <p>£{product.price}</p>
+              </div>
+              <div className='actionButton'>
+                <p onClick={() => removeBasketItem(product)}>Remove item</p>
+              </div>
             </div>
           </div>
         ))}

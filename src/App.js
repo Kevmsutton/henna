@@ -21,6 +21,13 @@ class App extends React.Component {
     basket: []
   };
 
+  removeBasketItem = basketItem => {
+    let updatedBasket = this.state.basket.filter(
+      item => item.id !== basketItem.id
+    );
+    this.setState({ basket: updatedBasket });
+  };
+
   sumOfBasketItems = () => {
     let total = 0;
     const basket = this.state.basket;
@@ -67,6 +74,7 @@ class App extends React.Component {
               {...props}
               basket={basket}
               sumOfBasketItems={this.sumOfBasketItems()}
+              removeBasketItem={this.removeBasketItem}
             />
           )}
         />
