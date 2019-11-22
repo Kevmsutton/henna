@@ -1,23 +1,77 @@
-.bigBox {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+.logRegPageContainer {
   display: flex;
   justify-content: center;
+  padding: 40px;
+  font-size: 1.3vw;
 }
 
-.medBox {
-  margin-top: 25%;
-  height: 50%;
+.logRegWrapper {
+  width: 60%;
+}
+
+.logRegHeader {
+  width: 100%;
+  display: flex;
+}
+
+.loginBoxHeader {
   width: 50%;
-  background-color: blue;
+  text-align: center;
+}
+
+.loginBoxHeader:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.registerBoxHeader {
+  width: 50%;
+  text-align: center;
+}
+
+.registerBoxHeader:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.regForm {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5%;
+}
+
+input {
+  height: 3.3vw;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.logRegButton {
+  width: 30%;
+  height: 3vw;
+  font-size: 1.3vw;
+  font-family: philosopher;
+}
+
+.logRegButton:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.loginForm {
   display: flex;
   justify-content: center;
-}
-
-.littleBox {
-  margin-top: 25%;
-  height: 50%;
-  width: 50%;
-  background-color: white;
+  background-color: #f0f0f0;
+  padding: 5%;
 }
