@@ -18,7 +18,8 @@ class App extends React.Component {
     materialSelector: 'metal',
     individualProduct: null,
     fullProduct: null,
-    basket: []
+    basket: [],
+    favourites: []
   };
 
   removeBasketItem = basketItem => {
@@ -41,6 +42,12 @@ class App extends React.Component {
   addProductToBasket = fullProduct => {
     this.setState(previousState => ({
       basket: [...previousState.basket, fullProduct]
+    }));
+  };
+
+  addProductToFavourites = fullProduct => {
+    this.setState(previousState => ({
+      favourites: [...previousState.favourites, fullProduct]
     }));
   };
 
@@ -88,6 +95,7 @@ class App extends React.Component {
               individualProduct={individualProduct}
               fullProduct={fullProduct}
               addProductToBasket={this.addProductToBasket}
+              addProductToFavourites={this.addProductToFavourites}
             />
           )}
         />

@@ -5,7 +5,11 @@ import MaterialIcon from 'material-icons-react';
 
 class Product extends React.Component {
   render() {
-    const { fullProduct, addProductToBasket } = this.props;
+    const {
+      fullProduct,
+      addProductToBasket,
+      addProductToFavourites
+    } = this.props;
     console.log(addProductToBasket);
     return (
       <div className='productPageContainer'>
@@ -22,7 +26,10 @@ class Product extends React.Component {
             />
           </div>
           <div className='productDetail'>
-            <div className='heartIcon'>
+            <div
+              onClick={() => addProductToFavourites(fullProduct)}
+              className='heartIcon'
+            >
               <MaterialIcon icon='favorite_border' size='40' />
             </div>
             <h2>{fullProduct.name}</h2>
