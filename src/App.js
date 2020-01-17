@@ -46,9 +46,12 @@ class App extends React.Component {
   };
 
   addProductToFavourites = fullProduct => {
-    this.setState(previousState => ({
-      favourites: [...previousState.favourites, fullProduct]
-    }));
+    let filteredFavourites = this.state.favourites.filter(
+      product => product.id !== fullProduct.id
+    );
+    this.setState({
+      favourites: [...filteredFavourites, fullProduct]
+    });
   };
 
   handleNavCategoryClick = category => {

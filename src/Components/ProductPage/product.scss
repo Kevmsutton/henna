@@ -64,6 +64,11 @@
   width: 100%;
 }
 
+.heart:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
 .colorWrapper {
   display: flex;
   justify-content: space-around;

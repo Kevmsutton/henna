@@ -30,7 +30,9 @@ class Product extends React.Component {
               onClick={() => addProductToFavourites(fullProduct)}
               className='heartIcon'
             >
-              <MaterialIcon icon='favorite_border' size='40' />
+              <p className='heart'>
+                <MaterialIcon icon='favorite_border' size='40' />
+              </p>
             </div>
             <h2>{fullProduct.name}</h2>
             <p>{fullProduct.description}</p>
