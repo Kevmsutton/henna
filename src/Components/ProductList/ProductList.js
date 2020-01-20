@@ -10,16 +10,22 @@ import './ProductList.scss';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
-import Products from '../productFeed.js';
 import BasketListBox from '../BasketListBox/BasketListBox.js';
 
 class ProductList extends React.Component {
   state = {
-    products: Products,
+    products: [],
     window: window.innerWidth
   };
 
+  componentDidMount() {
+    fetch('./productFeed.json')
+      .then(resp => resp.json())
+      .then(data => this.setState({ products: data.products }));
+  }
+
   filteredProducts = () => {
+    console.log(this.state.products);
     // if their is a price i only want to show products less than that price
     // if their is a material selected i only want to show products with that material
     // if their is a colour selected only products with that colour
@@ -69,6 +75,7 @@ class ProductList extends React.Component {
 
   render() {
     const { handleProductClick } = this.props;
+
     return (
       <div className='productListContainer'>
         <div>
@@ -126,7 +133,7 @@ class ProductList extends React.Component {
                   key={product.name}
                 >
                   <img
-                    src={product.image}
+                    src={process.env.PUBLIC_URL + `${product.image}`}
                     width='80%'
                     height='85%'
                     alt='productImg'
