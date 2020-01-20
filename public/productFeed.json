@@ -9,7 +9,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Matera.png",
+      "image": "./sofaImages/Matera.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -35,7 +35,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Bloomsbury.png",
+      "image": "./sofaImages/Bloomsbury.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -61,7 +61,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Brompton.png",
+      "image": "./sofaImages/Brompton.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -87,7 +87,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Chill.png",
+      "image": "./sofaImages/Chill.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -113,7 +113,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Eton.png",
+      "image": "./sofaImages/Eton.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -139,7 +139,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Hepburn.png",
+      "image": "./sofaImages/Hepburn.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -165,7 +165,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Balmoral.png",
+      "image": "./sofaImages/Balmoral.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -191,7 +191,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Mistral.png",
+      "image": "./sofaImages/Mistral.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -217,7 +217,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Richmond.png",
+      "image": "./sofaImages/Richmond.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -243,7 +243,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Snooze.png",
+      "image": "./sofaImages/Snooze.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -269,7 +269,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Tailor.png",
+      "image": "./sofaImages/Tailor.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -295,7 +295,7 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Torino.png",
+      "image": "./sofaImages/Torino.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
@@ -321,7 +321,319 @@
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
       "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
-      "image": "./productImages/Wallis.png",
+      "image": "./sofaImages/Wallis.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 14,
+      "name": "Bouji",
+      "price": 2789,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Bouji 3 Seater Sofa Daino Leather Treacle",
+      "longDescription": "Bouji is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Bouji.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 15,
+      "name": "Charley",
+      "price": 2109,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Charley.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 16,
+      "name": "Dolton",
+      "price": 2009,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Dolton.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 17,
+      "name": "Elvi",
+      "price": 1899,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Elvi.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 18,
+      "name": "Haring",
+      "price": 999,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Haring.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 19,
+      "name": "Henrik",
+      "price": 1629,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Henrik.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 20,
+      "name": "Kolton",
+      "price": 1209,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Kolton.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 21,
+      "name": "Kubric",
+      "price": 1799,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Kubric.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 22,
+      "name": "Orson",
+      "price": 1399,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Rufus.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 23,
+      "name": "Osmond",
+      "price": 1459,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Osmond.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 24,
+      "name": "Rufus",
+      "price": 1679,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Orson.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 25,
+      "name": "Tallulah",
+      "price": 1589,
+      "category": "Chairs",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Matera 3 Seater Chair Daino Leather Treacle",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./ChairImages/Talullah.png",
       "dimensions": {
         "Height": 82,
         "Width": 200,
