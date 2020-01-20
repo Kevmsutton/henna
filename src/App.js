@@ -71,7 +71,8 @@ class App extends React.Component {
       materialSelector,
       individualProduct,
       fullProduct,
-      basket
+      basket,
+      favourites
     } = this.state;
     return (
       <div className='app'>
@@ -89,7 +90,10 @@ class App extends React.Component {
           )}
         />
         <Route path='/personalAccount' component={Login} />
-        <Route path='/favourites' component={Favourites} />
+        <Route
+          path='/favourites'
+          render={props => <Favourites {...props} favourites={favourites} />}
+        />
         <Route
           path={`/${this.state.individualProduct}`}
           render={props => (
