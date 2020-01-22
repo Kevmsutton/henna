@@ -139,7 +139,11 @@ class ProductList extends React.Component {
                     alt='productImg'
                   />
                   <p>
-                    {product.name} - £{product.price}
+                    <strong>{product.name}</strong>
+                  </p>
+                  <p>{product.description}</p>
+                  <p>
+                    <strong>£{product.price}</strong>
                   </p>
                 </Link>
               </div>
