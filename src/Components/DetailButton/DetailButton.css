@@ -1,0 +1,25 @@
+.detailButton {
+  border: 2px solid black;
+  width: 50%;
+  padding: 5px;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .detailButton {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .detailButtonInner {
+    font-size: 3vw;
+    border: 2px solid black;
+    padding: 5px;
+  }
+}

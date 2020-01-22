@@ -6,11 +6,12 @@
 // app will then need to fetch those category products from the API and pass them to product list to be displayed
 
 import React from 'react';
-import './ProductList.scss';
+import './ProductList.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
 import BasketListBox from '../BasketListBox/BasketListBox.js';
+import DetailButton from '../DetailButton/DetailButton.js';
 
 class ProductList extends React.Component {
   state = {
@@ -145,6 +146,7 @@ class ProductList extends React.Component {
                   <p>
                     <strong>£{product.price}</strong>
                   </p>
+                  <DetailButton>More Detail </DetailButton>
                 </Link>
               </div>
             ))}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.scss';
+import './Hero.css';
 
 const products = [
   {

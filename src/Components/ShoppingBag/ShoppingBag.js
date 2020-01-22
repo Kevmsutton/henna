@@ -1,5 +1,5 @@
 import React from 'react';
-import './ShoppingBag.scss';
+import './ShoppingBag.css';
 import BasketListBox from '../BasketListBox/BasketListBox';
 
 class ShoppingBag extends React.Component {

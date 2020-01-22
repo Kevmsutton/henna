@@ -1,5 +1,5 @@
 import React from 'react';
-import './Favourites.scss';
+import './Favourites.css';
 import BasketListBox from '../BasketListBox/BasketListBox';
 import Product from '../ProductPage/product';
 

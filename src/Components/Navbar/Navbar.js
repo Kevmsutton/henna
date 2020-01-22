@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.scss';
+import './Navbar.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';

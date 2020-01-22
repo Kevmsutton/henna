@@ -1,10 +1,10 @@
 import React from 'react';
-import './ProductButton.scss';
+import './ProductButton.css';
 
 const ProductButton = () => {
   return (
     <div className='productButton'>
-      <div className='productButtonInner'>Add to basket</div>
+      <div className='productButtonInner'>Add to Basket</div>
     </div>
   );
 };

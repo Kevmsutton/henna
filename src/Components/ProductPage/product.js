@@ -1,5 +1,5 @@
 import React from 'react';
-import './product.scss';
+import './product.css';
 import ProductButton from '../ProductButton/ProductButton.js';
 import MaterialIcon from 'material-icons-react';
 
@@ -35,7 +35,7 @@ class Product extends React.Component {
               </p>
             </div>
             <h2>{fullProduct.name}</h2>
-            <p>{fullProduct.description}</p>
+            <p>{fullProduct.longDescription}</p>
             <h2>£{fullProduct.price}</h2>
             <div onClick={() => addProductToBasket(fullProduct)}>
               <ProductButton></ProductButton>
