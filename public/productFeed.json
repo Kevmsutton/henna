@@ -935,6 +935,214 @@
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
+    },
+    {
+      "id": 37,
+      "name": "Ada",
+      "price": 229,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Ada Bed Daino Leather Treacle",
+      "longDescription": "Ada is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Ada.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 38,
+      "name": "Elona",
+      "price": 499,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Elona Bed Daino Leather Treacle",
+      "longDescription": "Elona is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Elona.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 39,
+      "name": "Fosse",
+      "price": 999,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Fosse Bed Daino Leather Treacle",
+      "longDescription": "Fosse is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Fosse.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 40,
+      "name": "Higs",
+      "price": 329,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Higs Bed Daino Leather Treacle",
+      "longDescription": "Higs is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Higs.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 41,
+      "name": "Liana",
+      "price": 469,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Liana Bed Daino Leather Treacle",
+      "longDescription": "Liana is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Liana.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 42,
+      "name": "Lyle",
+      "price": 299,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Lyle Bed Daino Leather Treacle",
+      "longDescription": "Lyle is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Lyle.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 34,
+      "name": "Reema",
+      "price": 599,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Reema Bed Daino Leather Treacle",
+      "longDescription": "Reema is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Reema.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
+    },
+    {
+      "id": 43,
+      "name": "Roscoe",
+      "price": 699,
+      "category": "Beds",
+      "shortmaterial": ["metal", "leather"],
+      "colour": "brown",
+      "description": "Roscoe Bed Daino Leather Treacle",
+      "longDescription": "Roscoe is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "image": "./BedImages/Roscoe.png",
+      "dimensions": {
+        "Height": 82,
+        "Width": 200,
+        "Depth": 87,
+        "Seat": 45,
+        "Arm": 72
+      },
+      "longMaterial": {
+        "Frame": "Hardwood beech and birch multiply",
+        "SeatCushion": "High density polyurethane foam, memory foam and feathers",
+        "BackCushion": "Mollapiuma mix of feather and polyurethane",
+        "Legs": "Black matt lacquered metal, removable",
+        "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
+      },
+      "delivery": "5-6 weeks"
     }
   ]
 }

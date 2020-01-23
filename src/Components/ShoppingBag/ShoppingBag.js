@@ -10,6 +10,7 @@ class ShoppingBag extends React.Component {
         <div className='shoppingBagHeader'>
           <h3>Shopping Basket</h3>
         </div>
+        <div>There are currently no items in you basket</div>
         <div className='basketItemTitles'>
           <p className='imgTitle'></p>
           <p className='descTitle'>Product Description</p>
