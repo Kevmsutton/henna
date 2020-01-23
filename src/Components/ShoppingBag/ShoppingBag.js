@@ -10,23 +10,28 @@ class ShoppingBag extends React.Component {
         <div className='shoppingBagHeader'>
           <h3>Shopping Basket</h3>
         </div>
-        <div>There are currently no items in you basket</div>
-        <div className='basketItemTitles'>
-          <p className='imgTitle'></p>
-          <p className='descTitle'>Product Description</p>
-          <p className='availabilityTitle'>Availability</p>
-          <p className='unitPriceTitle'>Unit Price</p>
-        </div>
-        <BasketListBox
-          basket={basket}
-          removeBasketItem={removeBasketItem}
-        ></BasketListBox>
-        <div className='subTotalBasket'>
-          <p>Subtotal: £{sumOfBasketItems}</p>
-        </div>
-        <div className='actionButton'>
-          <p>Complete Order</p>
-        </div>
+        {basket.length < 1 ? (
+          <div>Whoops! There are currently no items in you basket.</div>
+        ) : (
+          <>
+            <div className='basketItemTitles'>
+              <p className='imgTitle'></p>
+              <p className='descTitle'>Product Description</p>
+              <p className='availabilityTitle'>Availability</p>
+              <p className='unitPriceTitle'>Unit Price</p>
+            </div>
+            <BasketListBox
+              basket={basket}
+              removeBasketItem={removeBasketItem}
+            ></BasketListBox>
+            <div className='subTotalBasket'>
+              <p>Subtotal: £{sumOfBasketItems}</p>
+            </div>
+            <div className='actionButton'>
+              <p>Complete Order</p>
+            </div>
+          </>
+        )}
       </div>
     );
   }

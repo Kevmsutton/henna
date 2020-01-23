@@ -6,13 +6,17 @@
 .favProductDetail {
   width: 30%;
   border: 2px solid black;
-}
-
-.favProductDetail {
-  width: 30%;
-  height: auto;
+  display: flex;
+  padding: 2%;
+  flex-direction: column;
 }
 
 .favProductDetail img {
   width: 100%;
+}
+
+.favProductBottom {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
 }

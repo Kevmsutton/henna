@@ -92,7 +92,13 @@ class App extends React.Component {
         <Route path='/personalAccount' component={Login} />
         <Route
           path='/favourites'
-          render={props => <Favourites {...props} favourites={favourites} />}
+          render={props => (
+            <Favourites
+              {...props}
+              favourites={favourites}
+              addProductToBasket={this.addProductToBasket}
+            />
+          )}
         />
         <Route
           path={`/${this.state.individualProduct}`}
