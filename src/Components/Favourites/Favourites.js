@@ -10,6 +10,7 @@ class Favourites extends React.Component {
     console.log(favourites);
     return (
       <div className='favouritesContainer'>
+        <h3>Favourites</h3>
         <div className='favProductWrap'>
           {favourites.length < 1 ? (
             <div>You haven't selected any favourite products</div>
@@ -21,9 +22,13 @@ class Favourites extends React.Component {
                     <img src={product.image} />
                   </div>
                   <div className='favProductBottom'>
-                    <p>Some text</p>
-                    <p>Some more text here text</p>
-                    <p>And then some more text</p>
+                    <p>
+                      <strong>{product.name}</strong>
+                    </p>
+                    <p>{product.description}</p>
+                    <p>
+                      <strong>£{product.price}</strong>
+                    </p>
                   </div>
                   <div onClick={() => addProductToBasket(product)}>
                     <ProductButton />
