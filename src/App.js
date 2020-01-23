@@ -29,6 +29,13 @@ class App extends React.Component {
     this.setState({ basket: updatedBasket });
   };
 
+  removeFavouriteItem = favouriteItem => {
+    let updatedFavourites = this.state.favourites.filter(
+      item => item.id !== favouriteItem.id
+    );
+    this.setState({ favourites: updatedFavourites });
+  };
+
   sumOfBasketItems = () => {
     let total = 0;
     const basket = this.state.basket;
@@ -40,6 +47,7 @@ class App extends React.Component {
   };
 
   addProductToBasket = fullProduct => {
+    this.removeFavouriteItem(fullProduct);
     this.setState(previousState => ({
       basket: [...previousState.basket, fullProduct]
     }));
