@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
 import BasketListBox from '../BasketListBox/BasketListBox.js';
 import DetailButton from '../DetailButton/DetailButton.js';
+import ProductFilterForm from '../ProductFilterForm/ProductFilterForm.js';
 
 class ProductList extends React.Component {
   state = {
@@ -79,6 +80,7 @@ class ProductList extends React.Component {
 
     return (
       <div className='productListContainer'>
+        <ProductFilterForm />
         <div>
           <p className='breadCrumb'>
             <strong>
