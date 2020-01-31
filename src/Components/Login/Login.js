@@ -28,7 +28,7 @@ class Login extends React.Component {
           </div>
           {this.state.login ? (
             <div className='loginForm'>
-              <form>
+              <form className='logRegForm'>
                 <label>Username:</label>
                 <input type='text' name='userName' />
                 <label>Password: </label>
@@ -40,7 +40,7 @@ class Login extends React.Component {
             </div>
           ) : (
             <div className='regForm'>
-              <form>
+              <form className='logRegForm'>
                 <label>First Name:</label>
                 <input type='text' name='firstName' />
                 <label>Last Name:</label>

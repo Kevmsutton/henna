@@ -80,7 +80,6 @@ class ProductList extends React.Component {
 
     return (
       <div className='productListContainer'>
-        <ProductFilterForm />
         <div>
           <p className='breadCrumb'>
             <strong>
@@ -95,7 +94,7 @@ class ProductList extends React.Component {
           <p>
             <strong>{this.props.category.toUpperCase()}</strong>
           </p>
-          <p className='filterText'> Filter</p>
+          {/* <p className='filterText'> Filter</p>
           <p className='filterIcon'>
             <MaterialIcon icon='keyboard_arrow_down' size='40' />
           </p>
@@ -120,9 +119,11 @@ class ProductList extends React.Component {
                 <MaterialIcon icon='keyboard_arrow_down' size='40' />
               </p>
             </li>
-          </ul>
+          </ul> */}
         </div>
+
         <div className='productBoxWrapper'>
+          <ProductFilterForm />
           <div className='productBox'>
             {this.filteredProducts().map(product => (
               <div

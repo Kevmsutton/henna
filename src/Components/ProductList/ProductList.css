@@ -2,8 +2,12 @@
   overflow: hidden;
 }
 
+.productBoxWrapper {
+  display: flex;
+}
+
 .productBox {
-  width: 100%;
+  width: 75%;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;

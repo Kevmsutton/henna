@@ -12,25 +12,55 @@ class ProductFilterForm extends React.Component {
 
   render() {
     return (
-      <div className='FormContainer'>
-        <div className='regForm'>
-          <form>
+      <div className='productFilterForm'>
+        <form>
+          <div className='checkBoxBlock'>
             <label>Colour:</label>
-            <input type='text' name='colour' />
+            <div className='labelBlock'>
+              <input type='checkbox' name='red' />
+              <label>Red</label>
+            </div>
+            <div className='labelBlock'>
+              <input type='checkbox' name='blue' />
+              <label>Blue</label>
+            </div>
+            <div className='labelBlock'>
+              <input type='checkbox' name='green' />
+              <label>Green</label>
+            </div>
+          </div>
+          <div className='checkBoxBlock'>
             <label>Material:</label>
-            <input type='text' name='materialType' />
+            <div className='labelBlock'>
+              <input type='checkbox' name='Wood' />
+              <label>Wood</label>
+            </div>
+            <div className='labelBlock'>
+              <input type='checkbox' name='Copper' />
+              <label>Copper</label>
+            </div>
+            <div className='labelBlock'>
+              <input type='checkbox' name='Metal' />
+              <label>Metal</label>
+            </div>
+          </div>
+          <div className='checkBoxBlock'>
             <label>Price:</label>
-            <h4 class='priceRange'>£{this.state.value}</h4>
+            <div className='priceValueWrap'>
+              <h4 className='priceRange'>Min: £{this.state.value}</h4>
+              <h4 className='priceRange'>Max: £2500</h4>
+            </div>
             <input
               type='range'
-              min='100'
-              max='3000'
+              min='0'
+              max='2500'
+              step='50'
               value={this.state.value}
               onChange={this.handleChange}
-              class='demo'
+              className='rangeFinder'
             />
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     );
   }
