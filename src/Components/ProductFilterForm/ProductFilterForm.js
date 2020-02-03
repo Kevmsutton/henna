@@ -3,11 +3,16 @@ import './ProductFilterForm.css';
 
 class ProductFilterForm extends React.Component {
   state = {
-    value: 0
+    value: 0,
+    colour: []
   };
 
-  handleChange = event => {
+  handleSliderChange = event => {
     this.setState({ value: event.target.value });
+  };
+
+  handleColourChange = event => {
+    this.setState({ colour: event.target.name });
   };
 
   render() {
@@ -16,8 +21,13 @@ class ProductFilterForm extends React.Component {
         <form>
           <div className='checkBoxBlock'>
             <label>Colour:</label>
+
             <div className='labelBlock'>
-              <input type='checkbox' name='red' />
+              <input
+                onChange={this.handleColourChange}
+                type='checkbox'
+                name='red'
+              />
               <label>Red</label>
             </div>
             <div className='labelBlock'>
@@ -56,7 +66,7 @@ class ProductFilterForm extends React.Component {
               max='2500'
               step='50'
               value={this.state.value}
-              onChange={this.handleChange}
+              onChange={this.handleSliderChange}
               className='rangeFinder'
             />
           </div>
