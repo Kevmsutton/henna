@@ -14,8 +14,8 @@ class App extends React.Component {
   state = {
     category: null,
     colourSelector: 'black',
-    priceSelector: 10000,
-    materialSelector: 'metal',
+    priceSelector: null,
+    materialSelector: 'leather',
     individualProduct: null,
     fullProduct: null,
     basket: [],

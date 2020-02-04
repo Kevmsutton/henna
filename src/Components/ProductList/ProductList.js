@@ -44,7 +44,7 @@ class ProductList extends React.Component {
           product.category
             .toLowerCase()
             .includes(this.props.category.toLowerCase()) &&
-          product.material === this.props.materialSelector
+          product.shortmaterial.includes(this.props.materialSelector)
         );
       } else if (this.props.colourSelector) {
         return (

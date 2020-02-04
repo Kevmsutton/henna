@@ -19,6 +19,7 @@ class ProductFilterForm extends React.Component {
     let changedColour = this.state.colours.filter(
       colour => colour.id == event.target.value
     );
+
     changedColour[0].isChecked = !changedColour[0].isChecked;
     this.setState(prevState => ({ isChecked: !prevState.colours.isChecked }));
   };

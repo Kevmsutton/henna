@@ -5,10 +5,10 @@
       "name": "Matera",
       "price": 2789,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Matera 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Matera is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Matera is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Matera.png",
       "dimensions": {
         "Height": 82,
@@ -21,7 +21,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -31,10 +31,10 @@
       "name": "Bloomsbury",
       "price": 2109,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Bloomsbury 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Bloomsbury is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Bloomsbury is a masterclass in contemporary design; clean lines, wooden legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Bloomsbury.png",
       "dimensions": {
         "Height": 82,
@@ -47,7 +47,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -57,10 +57,10 @@
       "name": "Brompton",
       "price": 2009,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Brompton 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Brompton is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Brompton is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Brompton.png",
       "dimensions": {
         "Height": 82,
@@ -73,7 +73,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -83,10 +83,10 @@
       "name": "Chill",
       "price": 1899,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Chill 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Chill is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Chill is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Chill.png",
       "dimensions": {
         "Height": 82,
@@ -99,7 +99,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -109,10 +109,10 @@
       "name": "Eton",
       "price": 999,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Eton 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Eton is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Eton is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Eton.png",
       "dimensions": {
         "Height": 82,
@@ -125,7 +125,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -135,10 +135,10 @@
       "name": "Hepburn",
       "price": 1629,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Hepburn 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Hepburn is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Hepburn is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Hepburn.png",
       "dimensions": {
         "Height": 82,
@@ -151,7 +151,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -161,10 +161,10 @@
       "name": "Balmoral",
       "price": 1209,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Balmoral 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Balmoral is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Balmoral is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Balmoral.png",
       "dimensions": {
         "Height": 82,
@@ -177,7 +177,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -187,10 +187,10 @@
       "name": "Mistral",
       "price": 1799,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Mistral 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Mistral is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Mistral is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Mistral.png",
       "dimensions": {
         "Height": 82,
@@ -203,7 +203,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -213,10 +213,10 @@
       "name": "Richmond",
       "price": 1399,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Richmond 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Richmond is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Richmond is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Richmond.png",
       "dimensions": {
         "Height": 82,
@@ -229,7 +229,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -239,10 +239,10 @@
       "name": "Snooze",
       "price": 1459,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Snooze 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Snooze is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Snooze is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Snooze.png",
       "dimensions": {
         "Height": 82,
@@ -255,7 +255,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -265,10 +265,10 @@
       "name": "Tailor",
       "price": 1679,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Tailor 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Tailor is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Tailor is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Tailor.png",
       "dimensions": {
         "Height": 82,
@@ -281,7 +281,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -291,10 +291,10 @@
       "name": "Torino",
       "price": 1589,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood"],
       "colour": "brown",
       "description": "Torino 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Torino is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Torino is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Torino.png",
       "dimensions": {
         "Height": 82,
@@ -307,7 +307,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -317,10 +317,10 @@
       "name": "Wallis",
       "price": 1899,
       "category": "Sofas",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Wallis 3 Seater Sofa Daino Leather Treacle",
-      "longDescription": "Wallis is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Wallis is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./sofaImages/Wallis.png",
       "dimensions": {
         "Height": 82,
@@ -333,7 +333,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -343,10 +343,10 @@
       "name": "Bouji",
       "price": 2789,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Bouji Chair Daino Leather Treacle",
-      "longDescription": "Bouji is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Bouji is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Bouji.png",
       "dimensions": {
         "Height": 82,
@@ -359,7 +359,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -369,10 +369,10 @@
       "name": "Charley",
       "price": 2109,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Charley Chair Daino Leather Treacle",
-      "longDescription": "Charley is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Charley is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Charley.png",
       "dimensions": {
         "Height": 82,
@@ -385,7 +385,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -395,10 +395,10 @@
       "name": "Dolton",
       "price": 2009,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Dolton Chair Daino Leather Treacle",
-      "longDescription": "Dolton is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Dolton is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Dolton.png",
       "dimensions": {
         "Height": 82,
@@ -411,7 +411,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -421,10 +421,10 @@
       "name": "Elvi",
       "price": 1899,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Elvi Chair Daino Leather Treacle",
-      "longDescription": "Elvi is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Elvi is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Elvi.png",
       "dimensions": {
         "Height": 82,
@@ -437,7 +437,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -447,10 +447,10 @@
       "name": "Haring",
       "price": 999,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Haring Chair Daino Leather Treacle",
-      "longDescription": "Haring is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Haring is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Haring.png",
       "dimensions": {
         "Height": 82,
@@ -463,7 +463,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -473,10 +473,10 @@
       "name": "Henrik",
       "price": 1629,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Henrik Chair Daino Leather Treacle",
-      "longDescription": "Henrik is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Henrik is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Henrik.png",
       "dimensions": {
         "Height": 82,
@@ -489,7 +489,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -499,10 +499,10 @@
       "name": "Kolton",
       "price": 1209,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Kolton Chair Daino Leather Treacle",
-      "longDescription": "Kolton is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Kolton is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Kolton.png",
       "dimensions": {
         "Height": 82,
@@ -515,7 +515,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -525,10 +525,10 @@
       "name": "Kubric",
       "price": 1799,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Kubric Chair Daino Leather Treacle",
-      "longDescription": "Kubric is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Kubric is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Kubric.png",
       "dimensions": {
         "Height": 82,
@@ -541,7 +541,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -551,10 +551,10 @@
       "name": "Rufus",
       "price": 1399,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Rufus Chair Daino Leather Treacle",
-      "longDescription": "Rufus is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Rufus is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Rufus.png",
       "dimensions": {
         "Height": 82,
@@ -567,7 +567,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -577,10 +577,10 @@
       "name": "Osmond",
       "price": 1459,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "suede"],
       "colour": "brown",
       "description": "Osmond Chair Daino Leather Treacle",
-      "longDescription": "Osmond is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Osmond is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Osmond.png",
       "dimensions": {
         "Height": 82,
@@ -593,7 +593,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -603,10 +603,10 @@
       "name": "Orson",
       "price": 1679,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "fabric"],
       "colour": "brown",
       "description": "Orson Chair Daino Leather Treacle",
-      "longDescription": "Orson is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Orson is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Orson.png",
       "dimensions": {
         "Height": 82,
@@ -619,7 +619,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -629,10 +629,10 @@
       "name": "Tallulah",
       "price": 1589,
       "category": "Chairs",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["wood", "leather"],
       "colour": "brown",
       "description": "Tallulah Chair Daino Leather Treacle",
-      "longDescription": "Tallulah is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Tallulah is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./ChairImages/Talullah.png",
       "dimensions": {
         "Height": 82,
@@ -645,7 +645,7 @@
         "Frame": "Hardwood beech and birch multiply",
         "SeatCushion": "High density polyurethane foam, memory foam and feathers",
         "BackCushion": "Mollapiuma mix of feather and polyurethane",
-        "Legs": "Black matt lacquered metal, removable",
+        "Legs": "Black matt lacquered wood, removable",
         "Upholstery": "Available in a range of Daino Leathers, Nobilis Velvets and St Moritz Wools"
       },
       "delivery": "5-6 weeks"
@@ -655,10 +655,10 @@
       "name": "Aliyah",
       "price": 2789,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal"],
       "colour": "brown",
       "description": "Aliyah Table Daino Leather Treacle",
-      "longDescription": "Aliyah is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
+      "longDescription": "Aliyah is a masterclass in contemporary design; clean lines, wood legs and expert upholstery make the design a timeless classic.",
       "image": "./TableImages/Aliyah.png",
       "dimensions": {
         "Height": 82,
@@ -681,7 +681,7 @@
       "name": "Anderson",
       "price": 2109,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Anderson Table Daino Leather Treacle",
       "longDescription": "Anderson is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -707,7 +707,7 @@
       "name": "Annita",
       "price": 2009,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Annita Table Daino Leather Treacle",
       "longDescription": "Annita is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -733,7 +733,7 @@
       "name": "Belgrave",
       "price": 1899,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Belgrave Table Daino Leather Treacle",
       "longDescription": "Belgrave is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -759,7 +759,7 @@
       "name": "Boone",
       "price": 999,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Boone Table Daino Leather Treacle",
       "longDescription": "Boone is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -785,7 +785,7 @@
       "name": "Brat",
       "price": 1629,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Brat Table Daino Leather Treacle",
       "longDescription": "Brat is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -811,7 +811,7 @@
       "name": "Coehlo",
       "price": 1209,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Coehlo Table Daino Leather Treacle",
       "longDescription": "Coehlo is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -837,7 +837,7 @@
       "name": "Fjord",
       "price": 1799,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Fjord Table Daino Leather Treacle",
       "longDescription": "Fjord is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -863,7 +863,7 @@
       "name": "Imoxe",
       "price": 1399,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Imoxe Table Daino Leather Treacle",
       "longDescription": "Imoxe is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -889,7 +889,7 @@
       "name": "Jaxta",
       "price": 1459,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Jaxta Table Daino Leather Treacle",
       "longDescription": "Jaxta is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -915,7 +915,7 @@
       "name": "Switzerlan",
       "price": 1679,
       "category": "Tables",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Switzerlan Table Daino Leather Treacle",
       "longDescription": "Switzerlan is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -941,7 +941,7 @@
       "name": "Ada",
       "price": 229,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Ada Bed Daino Leather Treacle",
       "longDescription": "Ada is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -967,7 +967,7 @@
       "name": "Elona",
       "price": 499,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Elona Bed Daino Leather Treacle",
       "longDescription": "Elona is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -993,7 +993,7 @@
       "name": "Fosse",
       "price": 999,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Fosse Bed Daino Leather Treacle",
       "longDescription": "Fosse is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -1019,7 +1019,7 @@
       "name": "Higs",
       "price": 329,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Higs Bed Daino Leather Treacle",
       "longDescription": "Higs is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -1045,7 +1045,7 @@
       "name": "Liana",
       "price": 469,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Liana Bed Daino Leather Treacle",
       "longDescription": "Liana is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -1071,7 +1071,7 @@
       "name": "Lyle",
       "price": 299,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Lyle Bed Daino Leather Treacle",
       "longDescription": "Lyle is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -1097,7 +1097,7 @@
       "name": "Reema",
       "price": 599,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Reema Bed Daino Leather Treacle",
       "longDescription": "Reema is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
@@ -1123,7 +1123,7 @@
       "name": "Roscoe",
       "price": 699,
       "category": "Beds",
-      "shortmaterial": ["metal", "leather"],
+      "mainMaterial": ["metal", "leather"],
       "colour": "brown",
       "description": "Roscoe Bed Daino Leather Treacle",
       "longDescription": "Roscoe is a masterclass in contemporary design; clean lines, metal legs and expert upholstery make the design a timeless classic.",
