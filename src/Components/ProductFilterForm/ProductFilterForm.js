@@ -4,7 +4,11 @@ import './ProductFilterForm.css';
 class ProductFilterForm extends React.Component {
   state = {
     value: 0,
-    colour: []
+    colours: [
+      { id: 1, value: 'Red', isChecked: false },
+      { id: 2, value: 'Blue', isChecked: false },
+      { id: 3, value: 'Green', isChecked: false }
+    ]
   };
 
   handleSliderChange = event => {
@@ -12,7 +16,11 @@ class ProductFilterForm extends React.Component {
   };
 
   handleColourChange = event => {
-    this.setState({ colour: event.target.name });
+    let changedColour = this.state.colours.filter(
+      colour => colour.id == event.target.value
+    );
+    changedColour[0].isChecked = !changedColour[0].isChecked;
+    this.setState(prevState => ({ isChecked: !prevState.colours.isChecked }));
   };
 
   render() {
@@ -23,20 +31,20 @@ class ProductFilterForm extends React.Component {
             <label>Colour:</label>
 
             <div className='labelBlock'>
-              <input
-                onChange={this.handleColourChange}
-                type='checkbox'
-                name='red'
-              />
-              <label>Red</label>
-            </div>
-            <div className='labelBlock'>
-              <input type='checkbox' name='blue' />
-              <label>Blue</label>
-            </div>
-            <div className='labelBlock'>
-              <input type='checkbox' name='green' />
-              <label>Green</label>
+              <ul>
+                {this.state.colours.map(colour => (
+                  <li>
+                    <input
+                      key={colour.id}
+                      onChange={this.handleColourChange}
+                      type='checkbox'
+                      checked={colour.isChecked}
+                      value={colour.id}
+                    />
+                    {colour.value}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
           <div className='checkBoxBlock'>
