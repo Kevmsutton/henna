@@ -16,8 +16,7 @@ import ProductFilterForm from '../ProductFilterForm/ProductFilterForm.js';
 
 class ProductList extends React.Component {
   state = {
-    products: [],
-    window: window.innerWidth
+    products: []
   };
 
   componentDidMount() {
@@ -28,10 +27,14 @@ class ProductList extends React.Component {
 
   filteredProducts = () => {
     console.log(this.state.products);
-    // if their is a price i only want to show products less than that price
-    // if their is a material selected i only want to show products with that material
-    // if their is a colour selected only products with that colour
+
+    console.log(this.props);
+    // if there is a price i only want to show products less than that price
+    // if there is a material selected i only want to show products with that material
+    // if there is a colour selected only products with that colour
     let categoryProducts = this.state.products.filter(product => {
+      //where are props coming from?
+      //
       if (this.props.priceSelector) {
         return (
           product.category
@@ -44,7 +47,7 @@ class ProductList extends React.Component {
           product.category
             .toLowerCase()
             .includes(this.props.category.toLowerCase()) &&
-          product.shortmaterial.includes(this.props.materialSelector)
+          product.mainMaterial.includes(this.props.materialSelector)
         );
       } else if (this.props.colourSelector) {
         return (

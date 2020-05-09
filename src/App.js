@@ -13,9 +13,9 @@ import Product from './Components/ProductPage/product';
 class App extends React.Component {
   state = {
     category: null,
-    colourSelector: 'black',
+    colourSelector: null,
     priceSelector: null,
-    materialSelector: 'leather',
+    materialSelector: 'metal',
     individualProduct: null,
     fullProduct: null,
     basket: [],
