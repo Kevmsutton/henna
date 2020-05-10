@@ -20,7 +20,7 @@ class Navbar extends React.Component {
   render() {
     const { handleNavCategoryClick } = this.props;
     return (
-      <div>
+      <div className ="allNav">
         <div className='topNav'>
           <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
             <p>HENNA</p>
@@ -29,22 +29,22 @@ class Navbar extends React.Component {
             <div className='lgScreenAcNav'>
               <Link style={{ textDecoration: 'none' }} to='/favourites'>
                 <li className='favourites'>
-                  <MaterialIcon icon='favorite_border' size='40' />
+                  <MaterialIcon icon='favorite_border' size='50' />
                 </li>
               </Link>
               <Link style={{ textDecoration: 'none' }} to='/shoppingBag'>
                 <li className='bag'>
-                  <MaterialIcon icon='work' size='40' />
+                  <MaterialIcon icon='work' size='50' />
                 </li>
               </Link>
               <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
                 <li className='account'>
-                  <MaterialIcon icon='person' size='40' />
+                  <MaterialIcon icon='person' size='50' />
                 </li>
               </Link>
             </div>
             <li className='categoryDD'>
-              <MaterialIcon icon='reorder' size='40' />
+              <MaterialIcon icon='reorder' size='30' />
             </li>
           </ul>
         </div>
