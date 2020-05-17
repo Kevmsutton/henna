@@ -8,11 +8,6 @@
   text-align: center;
 }
 
-.imageDiv img {
-  vertical-align: middle;
-  text-align: center;
-}
-
 .leaderP {
   position: absolute;
   top: 2%;
@@ -132,4 +127,32 @@
   margin-left: 17.5%;
   width: 60%;
   font-size: 2vw;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+  .leaderP {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+    height: 2.5vw;
+    width: 17vw;
+    padding: 0.8%;
+    font-size: 3vw;
+    background-color: null;
+  }
+
+  .leaderPrice {
+    position: absolute;
+    top: 7%;
+    left: 2.8%;
+    height: 2.5vw;
+    width: 17vw;
+    padding: 0.8%;
+    font-size: 4vw;
+    background-color: null;
+    font-style: bold;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1007px) {
 }

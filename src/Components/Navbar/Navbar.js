@@ -2,7 +2,6 @@ import React from 'react';
 import './Navbar.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
-import MediaQuery from 'react-responsive';
 
 const categories = [
   { name: 'Sofas' },
@@ -20,7 +19,7 @@ class Navbar extends React.Component {
   render() {
     const { handleNavCategoryClick } = this.props;
     return (
-      <div className ="allNav">
+      <div className='allNav'>
         <div className='topNav'>
           <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
             <p>HENNA</p>
@@ -29,23 +28,31 @@ class Navbar extends React.Component {
             <div className='lgScreenAcNav'>
               <Link style={{ textDecoration: 'none' }} to='/favourites'>
                 <li className='favourites'>
-                  <MaterialIcon icon='favorite_border' size='50' />
+                  <MaterialIcon icon='favorite_border' />
                 </li>
               </Link>
               <Link style={{ textDecoration: 'none' }} to='/shoppingBag'>
                 <li className='bag'>
-                  <MaterialIcon icon='work' size='50' />
+                  <MaterialIcon icon='work' />
                 </li>
               </Link>
               <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
                 <li className='account'>
-                  <MaterialIcon icon='person' size='50' />
+                  <MaterialIcon icon='person' />
                 </li>
               </Link>
             </div>
-            <li className='categoryDD'>
-              <MaterialIcon icon='reorder' size='30' />
+          </ul>
+
+          <ul className='categoryDD'>
+            <li>
+              <MaterialIcon icon='reorder' />
             </li>
+            <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
+              <li className='account'>
+                <MaterialIcon icon='person' />
+              </li>
+            </Link>
           </ul>
         </div>
         <div className='topNavYellowUnderLine' />
@@ -57,16 +64,14 @@ class Navbar extends React.Component {
                 to={`/${category.name}`}
                 key={category.name}
               >
-                <MediaQuery query='(min-device-width: 1024px)'>
-                  <li onClick={() => handleNavCategoryClick(category.name)}>
-                    {category.name}
-                  </li>
-                </MediaQuery>
+                <li
+                  className='categoryEl'
+                  onClick={() => handleNavCategoryClick(category.name)}
+                >
+                  {category.name}
+                </li>
               </Link>
             ))}
-            <MediaQuery query='(max-device-width: 1023px)'>
-              <li>Category</li>
-            </MediaQuery>
           </ul>
         </div>
       </div>
