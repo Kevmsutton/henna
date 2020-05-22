@@ -2,33 +2,32 @@
   overflow: hidden;
 }
 
-.imageDiv {
-  position: relative;
-  font-family: philosopher;
-  text-align: center;
+.headImageDiv {
+  background-image: url('../Home/leader.png');
+  background-color: #cccccc;
+  height: 700px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.textHeadImage {
+  width: 25%;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .leaderP {
-  position: absolute;
-  top: 2%;
-  left: 9%;
-  height: 2.5vw;
-  width: 17vw;
-  padding: 0.8%;
-  font-size: 1.6vw;
-  background-color: null;
+  font-size: 2vw;
+  margin: 0;
 }
 
 .leaderPrice {
-  position: absolute;
-  top: 7%;
-  left: 2.8%;
-  height: 2.5vw;
-  width: 17vw;
-  padding: 0.8%;
-  font-size: 1.8vw;
-  background-color: null;
+  font-size: 2.3vw;
   font-style: bold;
+  margin: 0;
 }
 
 .power {

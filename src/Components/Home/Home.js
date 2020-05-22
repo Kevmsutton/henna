@@ -11,16 +11,17 @@ class Home extends React.Component {
   render() {
     return (
       <div className='homeContain'>
-        <div className='imageDiv'>
-          <img src={leader} width='100%' height='auto' alt='largeImg' />
-          <p className='leaderP'>
-            Unbelievable style <strong>From</strong>
-          </p>
-          <br />
-          <p className='leaderPrice'>
-            <strong>£259</strong>
-          </p>
-          <Button />
+        <div className='headImageDiv'>
+          <div className='textHeadImage'>
+            <p className='leaderP'>
+              Unbelievable style <strong>From</strong>
+            </p>
+            <br />
+            <p className='leaderPrice'>
+              <strong>£259</strong>
+            </p>
+            <Button />
+          </div>
         </div>
         <div className='power'>
           <div className='powerProduct'>
