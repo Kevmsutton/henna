@@ -3,10 +3,8 @@ import './Button.css';
 
 const Button = () => {
   return (
-    <div className='button'>
-      <div className='buttonOuter'>
-        <div className='buttonInner'>Take a look</div>
-      </div>
+    <div className='buttonBlock'>
+      <div className='button'>Take a look</div>
     </div>
   );
 };

@@ -1,0 +1,63 @@
+.promoSlotTwoContainer {
+  display: flex;
+  font-size: 3.5vw;
+  background-color: #f3f5f9;
+}
+
+.power {
+  display: flex;
+  width: 40%;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.power img {
+  width: 100%;
+}
+
+.power p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.saleContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 60%;
+}
+
+.sale {
+  position: relative;
+  display: flex;
+  width: 100%;
+  color: white;
+}
+
+.sale img {
+  margin-top: 7%;
+  margin-left: 20%;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+}
+
+.sale .saleText {
+  position: absolute;
+  z-index: 999;
+  margin-left: 45px;
+  margin-top: 10px;
+  top: 0%; /* Adjust this value to move the positioned div up and down */
+  width: 55%; /* Set the width of the positioned div */
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.saleButtonBlock {
+  display: flex;
+  justify-content: flex-end;
+}

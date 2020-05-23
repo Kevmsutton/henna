@@ -1,56 +1,36 @@
-.button {
+.buttonBlock {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 20%;
+  margin-top: 20px;
 }
 
-.buttonOuter {
-  width: 40%;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.buttonInner {
+.button {
   background-color: white;
-  border: 3px solid black;
-  font-size: 1.6vw;
+  width: 300px;
+  padding: 8px;
+  font-size: 2.3vw;
   text-align: center;
   color: black;
+  border: 4px solid white;
+  opacity: 0.9;
 }
 
-.saleButton .buttonOuter {
-  position: absolute;
-  margin-left: 62%;
-  margin-top: 33%;
+.button:hover {
+  background-color: black;
+  color: white;
+  border: 4px solid white;
+  cursor: pointer;
+  transition-duration: 0.5s;
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
 }
 
 @media only screen and (max-width: 639px) {
-  .saleButton .buttonInner {
-    font-size: 3vw;
-    margin-left: 2%;
-    padding: 3%;
-    background-color: red;
-    opacity: 0.95;
-    color: white;
-  }
-  .buttonInner {
+  .button {
     font-size: 3vw;
     width: 60px;
     border: 1px solid black;
     height: 100%;
     padding: 1%;
-  }
-  .saleButton .buttonOuter {
-    margin-left: 55%;
-    margin-top: 33%;
-  }
-  .saleButton .buttonInner {
-    position: absolute;
-    margin-left: 8%;
-    font-size: 1.6vw;
-    border: 0.15vw solid black;
   }
 }

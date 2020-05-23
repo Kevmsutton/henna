@@ -13,82 +13,22 @@
   display: flex;
 }
 .textHeadImage {
-  width: 25%;
+  width: 45%;
   margin: 100px;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
 }
 
 .leaderP {
-  font-size: 2vw;
+  font-size: 4vw;
   margin: 0;
 }
 
 .leaderPrice {
-  font-size: 2.3vw;
+  font-size: 4.5vw;
   font-style: bold;
   margin: 0;
-}
-
-.power {
-  display: flex;
-  font-family: philosopher;
-  height: 35vw;
-}
-
-.powerProduct {
-  height: 100%;
-  width: 40%;
-  font-size: 3vw;
-  background-color: #f3f5f9;
-}
-
-.powerProduct img {
-  margin-top: 7%;
-  margin-left: 5%;
-}
-
-.powerProduct .p1 {
-  opacity: 0.7;
-  margin: 0;
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-.powerProduct .p2 {
-  opacity: 0.7;
-  margin: 0;
-  margin-left: 5%;
-}
-
-.sale {
-  position: relative;
-  height: 100%;
-  width: 60%;
-  background-color: red;
-  font-size: 5.5vw;
-  color: white;
-}
-
-.sale .p1 {
-  position: absolute;
-  margin: 0;
-  margin-left: 5%;
-  margin-top: 3%;
-}
-
-.sale .p2 {
-  position: absolute;
-  margin: 0;
-  margin-left: 5.5%;
-  margin-top: 11%;
-  font-size: 3.5vw;
-}
-
-.sale img {
-  position: absolute;
-  margin-top: 3%;
-  margin-left: 10%;
 }
 
 .designerBlock {
