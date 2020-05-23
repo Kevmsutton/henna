@@ -9,10 +9,13 @@ const PowerProductHome = () => {
     <div className='promoSlotTwoContainer'>
       <div className='power'>
         <div className='powerProduct'>
-          <p>
-            Courtyard Heaven and <br></br>
-            Summer Specials
-          </p>
+          <div className='powerProductText'>
+            <p>
+              Courtyard Heaven and <br></br>
+              Summer Specials
+            </p>
+            <p className='powerMobileText'>Find Out More >></p>
+          </div>
           <img src={power} alt='powerImg' />
         </div>
       </div>
