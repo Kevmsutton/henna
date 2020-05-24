@@ -1,5 +1,4 @@
 .buttonBlock {
-  display: flex;
   margin-top: 20px;
 }
 
@@ -26,11 +25,14 @@
 }
 
 @media only screen and (max-width: 639px) {
+  .buttonBlock {
+    margin-top: 10px;
+  }
+
   .button {
-    font-size: 3vw;
-    width: 60px;
+    font-size: 4.5vw;
+    width: 90px;
     border: 1px solid black;
-    height: 100%;
-    padding: 1%;
+    padding: 4px;
   }
 }

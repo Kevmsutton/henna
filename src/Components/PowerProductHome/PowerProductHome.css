@@ -109,4 +109,9 @@ p {
   .saleContainer {
     width: 100%;
   }
+
+  .sale .saleText {
+    margin-left: 15px;
+    font-size: 6vw;
+  }
 }
