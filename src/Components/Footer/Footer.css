@@ -8,13 +8,6 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  .footer {
-    height: 30%;
-    font-size: 3vw;
-  }
-}
-
 .helpDiv {
   width: 30%;
 }
@@ -63,4 +56,11 @@
   margin-bottom: 0;
   font-size: 3vw;
   margin-top: 0;
+}
+
+@media only screen and (max-width: 639px) {
+  .footer {
+    height: 30%;
+    font-size: 3vw;
+  }
 }

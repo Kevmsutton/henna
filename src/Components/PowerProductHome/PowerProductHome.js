@@ -14,7 +14,9 @@ const PowerProductHome = () => {
               Courtyard Heaven and <br></br>
               Summer Specials
             </p>
-            <p className='powerMobileText'>Find Out More >></p>
+            <p className='powerMobileText'>
+              <strong>Find Out More >></strong>
+            </p>
           </div>
           <img src={power} alt='powerImg' />
         </div>
