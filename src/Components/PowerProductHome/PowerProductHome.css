@@ -75,6 +75,10 @@ p {
   .power img {
     width: 95%;
   }
+
+  .sale .saleText {
+    margin-left: 15px;
+  }
 }
 
 @media only screen and (max-width: 639px) {

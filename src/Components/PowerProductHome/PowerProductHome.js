@@ -25,8 +25,10 @@ const PowerProductHome = () => {
         <div className='sale'>
           <img src={sale} alt='saleImg' />
           <div className='saleText'>
-            <p>Clearance</p>
-            <p>Before it's all gone</p>
+            <p>
+              Clearance <br></br>
+              Before it's all gone
+            </p>
             <Button />
           </div>
         </div>
