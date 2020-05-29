@@ -2,4 +2,8 @@
   overflow: hidden;
 }
 
+.productListContain {
+  display: flex;
+}
+
 /* https://clrs.cc/ */

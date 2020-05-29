@@ -9,6 +9,7 @@ import Favourites from './Components/Favourites/Favourites';
 import { Route } from 'react-router-dom';
 import ProductList from './Components/ProductList/ProductList';
 import Product from './Components/ProductPage/product';
+import ProductFilterForm from './Components/ProductFilterForm/ProductFilterForm';
 
 class App extends React.Component {
   state = {
@@ -19,19 +20,19 @@ class App extends React.Component {
     individualProduct: null,
     fullProduct: null,
     basket: [],
-    favourites: []
+    favourites: [],
   };
 
-  removeBasketItem = basketItem => {
+  removeBasketItem = (basketItem) => {
     let updatedBasket = this.state.basket.filter(
-      item => item.id !== basketItem.id
+      (item) => item.id !== basketItem.id
     );
     this.setState({ basket: updatedBasket });
   };
 
-  removeFavouriteItem = favouriteItem => {
+  removeFavouriteItem = (favouriteItem) => {
     let updatedFavourites = this.state.favourites.filter(
-      item => item.id !== favouriteItem.id
+      (item) => item.id !== favouriteItem.id
     );
     this.setState({ favourites: updatedFavourites });
   };
@@ -39,34 +40,38 @@ class App extends React.Component {
   sumOfBasketItems = () => {
     let total = 0;
     const basket = this.state.basket;
-    let totalArray = basket.map(item => item.price);
+    let totalArray = basket.map((item) => item.price);
     for (let i = 0; i < totalArray.length; i++) {
       total += totalArray[i];
     }
     return total;
   };
 
-  addProductToBasket = fullProduct => {
+  // handleColourChange = (productColour) => {
+  //   this.setState({ colourSelector: productColour });
+  // };
+
+  addProductToBasket = (fullProduct) => {
     this.removeFavouriteItem(fullProduct);
-    this.setState(previousState => ({
-      basket: [...previousState.basket, fullProduct]
+    this.setState((previousState) => ({
+      basket: [...previousState.basket, fullProduct],
     }));
   };
 
-  addProductToFavourites = fullProduct => {
+  addProductToFavourites = (fullProduct) => {
     let filteredFavourites = this.state.favourites.filter(
-      product => product.id !== fullProduct.id
+      (product) => product.id !== fullProduct.id
     );
     this.setState({
-      favourites: [...filteredFavourites, fullProduct]
+      favourites: [...filteredFavourites, fullProduct],
     });
   };
 
-  handleNavCategoryClick = category => {
+  handleNavCategoryClick = (category) => {
     this.setState({ category: category });
   };
 
-  handleProductClick = product => {
+  handleProductClick = (product) => {
     this.setState({ individualProduct: product.name });
     this.setState({ fullProduct: product });
   };
@@ -80,7 +85,7 @@ class App extends React.Component {
       individualProduct,
       fullProduct,
       basket,
-      favourites
+      favourites,
     } = this.state;
     return (
       <div className='app'>
@@ -88,7 +93,7 @@ class App extends React.Component {
         <Route exact path='/' component={Home} />
         <Route
           path='/shoppingBag'
-          render={props => (
+          render={(props) => (
             <ShoppingBag
               {...props}
               basket={basket}
@@ -100,7 +105,7 @@ class App extends React.Component {
         <Route path='/personalAccount' component={Login} />
         <Route
           path='/favourites'
-          render={props => (
+          render={(props) => (
             <Favourites
               {...props}
               favourites={favourites}
@@ -110,7 +115,7 @@ class App extends React.Component {
         />
         <Route
           path={`/${this.state.individualProduct}`}
-          render={props => (
+          render={(props) => (
             <Product
               {...props}
               individualProduct={individualProduct}
@@ -122,15 +127,18 @@ class App extends React.Component {
         />
         <Route
           path={`/${this.state.category}`}
-          render={props => (
-            <ProductList
-              {...props}
-              category={category}
-              colourSelector={colourSelector}
-              priceSelector={priceSelector}
-              materialSelector={materialSelector}
-              handleProductClick={this.handleProductClick}
-            />
+          render={(props) => (
+            <div className='productListContain'>
+              <ProductFilterForm />
+              <ProductList
+                {...props}
+                category={category}
+                colourSelector={colourSelector}
+                priceSelector={priceSelector}
+                materialSelector={materialSelector}
+                handleProductClick={this.handleProductClick}
+              />
+            </div>
           )}
         />
         <Footer />

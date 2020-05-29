@@ -5,23 +5,23 @@ class ProductFilterForm extends React.Component {
   state = {
     value: 0,
     colours: [
-      { id: 1, value: 'Red', isChecked: false },
-      { id: 2, value: 'Blue', isChecked: false },
-      { id: 3, value: 'Green', isChecked: false }
-    ]
+      { id: 1, value: 'Black', isChecked: false },
+      { id: 2, value: 'Brown', isChecked: false },
+      { id: 3, value: 'Green', isChecked: false },
+    ],
   };
 
-  handleSliderChange = event => {
+  handleSliderChange = (event) => {
     this.setState({ value: event.target.value });
   };
 
-  handleColourChange = event => {
+  handleColourChangeCheckBox = (event) => {
     let changedColour = this.state.colours.filter(
-      colour => colour.id == event.target.value
+      (colour) => colour.id == event.target.value
     );
 
     changedColour[0].isChecked = !changedColour[0].isChecked;
-    this.setState(prevState => ({ isChecked: !prevState.colours.isChecked }));
+    this.setState((prevState) => ({ isChecked: !prevState.colours.isChecked }));
   };
 
   render() {
@@ -33,11 +33,11 @@ class ProductFilterForm extends React.Component {
 
             <div className='labelBlock'>
               <ul>
-                {this.state.colours.map(colour => (
+                {this.state.colours.map((colour) => (
                   <li>
                     <input
                       key={colour.id}
-                      onChange={this.handleColourChange}
+                      onChange={this.handleColourChangeCheckBox}
                       type='checkbox'
                       checked={colour.isChecked}
                       value={colour.id}

@@ -16,13 +16,13 @@ import ProductFilterForm from '../ProductFilterForm/ProductFilterForm.js';
 
 class ProductList extends React.Component {
   state = {
-    products: []
+    products: [],
   };
 
   componentDidMount() {
     fetch('./productFeed.json')
-      .then(resp => resp.json())
-      .then(data => this.setState({ products: data.products }));
+      .then((resp) => resp.json())
+      .then((data) => this.setState({ products: data.products }));
   }
 
   filteredProducts = () => {
@@ -32,7 +32,7 @@ class ProductList extends React.Component {
     // if there is a price i only want to show products less than that price
     // if there is a material selected i only want to show products with that material
     // if there is a colour selected only products with that colour
-    let categoryProducts = this.state.products.filter(product => {
+    let categoryProducts = this.state.products.filter((product) => {
       //where are props coming from?
       //
       if (this.props.priceSelector) {
@@ -126,9 +126,8 @@ class ProductList extends React.Component {
         </div>
 
         <div className='productBoxWrapper'>
-          <ProductFilterForm />
           <div className='productBox'>
-            {this.filteredProducts().map(product => (
+            {this.filteredProducts().map((product) => (
               <div
                 key={product.id}
                 onClick={() => handleProductClick(product)}
