@@ -83,21 +83,7 @@ class ProductList extends React.Component {
 
     return (
       <div className='productListContainer'>
-        <div>
-          <p className='breadCrumb'>
-            <strong>
-              <span className='clickToGo'>HOME </span>
-              <span className='noClickBreadCrumb'>
-                / {this.props.category.toUpperCase()}
-              </span>
-            </strong>
-          </p>
-        </div>
-        <div className='categoryHeading'>
-          <p>
-            <strong>{this.props.category.toUpperCase()}</strong>
-          </p>
-          {/* <p className='filterText'> Filter</p>
+        {/* <p className='filterText'> Filter</p>
           <p className='filterIcon'>
             <MaterialIcon icon='keyboard_arrow_down' size='40' />
           </p>
@@ -123,8 +109,6 @@ class ProductList extends React.Component {
               </p>
             </li>
           </ul> */}
-        </div>
-
         <div className='productBoxWrapper'>
           <div className='productBox'>
             {this.filteredProducts().map((product) => (
