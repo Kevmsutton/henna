@@ -10,6 +10,7 @@ import { Route } from 'react-router-dom';
 import ProductList from './Components/ProductList/ProductList';
 import Product from './Components/ProductPage/product';
 import ProductFilterForm from './Components/ProductFilterForm/ProductFilterForm';
+import CatBreadandHead from './Components/catBreadandHead/catBreadandHead.js';
 
 class App extends React.Component {
   state = {
@@ -128,16 +129,19 @@ class App extends React.Component {
         <Route
           path={`/${this.state.category}`}
           render={(props) => (
-            <div className='productListContain'>
-              <ProductFilterForm />
-              <ProductList
-                {...props}
-                category={category}
-                colourSelector={colourSelector}
-                priceSelector={priceSelector}
-                materialSelector={materialSelector}
-                handleProductClick={this.handleProductClick}
-              />
+            <div>
+              <CatBreadandHead {...props} category={category} />
+              <div className='productListContain'>
+                <ProductFilterForm />
+                <ProductList
+                  {...props}
+                  category={category}
+                  colourSelector={colourSelector}
+                  priceSelector={priceSelector}
+                  materialSelector={materialSelector}
+                  handleProductClick={this.handleProductClick}
+                />
+              </div>
             </div>
           )}
         />

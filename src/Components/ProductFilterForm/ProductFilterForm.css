@@ -1,3 +1,13 @@
+.productFilterForm {
+  font-size: 2vw;
+  padding: 0;
+  margin-left: 20px;
+  width: 20%;
+  border: 3px solid #f3f5f9;
+  height: 600px;
+  box-shadow: black;
+}
+
 .priceRange {
   margin-bottom: 0;
 }
@@ -25,16 +35,6 @@ input[type='checkbox'] {
   flex-direction: column;
   margin: 10px;
   margin-left: 0;
-}
-
-.productFilterForm {
-  font-size: 2vw;
-  padding: 0;
-  margin-left: 20px;
-  width: 20%;
-  border: 3px solid #f3f5f9;
-  height: 600px;
-  box-shadow: black;
 }
 
 .priceValueWrap {

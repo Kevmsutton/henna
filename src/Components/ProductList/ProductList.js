@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 // import white_table from './assets/white_table.png';
 import BasketListBox from '../BasketListBox/BasketListBox.js';
 import DetailButton from '../DetailButton/DetailButton.js';
-import ProductFilterForm from '../ProductFilterForm/ProductFilterForm.js';
+import catBreadandHead from '../catBreadandHead/catBreadandHead';
 
 class ProductList extends React.Component {
   state = {

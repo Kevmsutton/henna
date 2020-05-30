@@ -1,19 +1,26 @@
 import React from 'react';
+import './catBreadandHead.css';
 
-{
-  /* <div className='productListContainer'>
-<div>
-  <p className='breadCrumb'>
-    <strong>
-      <span className='clickToGo'>HOME </span>
-      <span className='noClickBreadCrumb'>
-        / {this.props.category.toUpperCase()}
-      </span>
-    </strong>
-  </p>
-</div>
-<div className='categoryHeading'>
-  <p>
-    <strong>{this.props.category.toUpperCase()}</strong>
-  </p> */
-}
+const CatBreadandHead = (props) => {
+  return (
+    <div className='productListHeadContainer'>
+      <div>
+        <p className='breadCrumb'>
+          <strong>
+            <span className='clickToGo'>HOME </span>
+            <span className='noClickBreadCrumb'>
+              / {props.category.toUpperCase()}
+            </span>
+          </strong>
+        </p>
+      </div>
+      <div className='categoryHeading'>
+        <p>
+          <strong>{props.category.toUpperCase()}</strong>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default CatBreadandHead;

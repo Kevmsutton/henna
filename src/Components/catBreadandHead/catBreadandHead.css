@@ -1,0 +1,18 @@
+.productListHeadContainer {
+  width: 100%;
+  padding: 20px;
+}
+
+.breadCrumb {
+  font-size: 1.5vw;
+}
+
+.clickToGo {
+  color: grey;
+}
+
+.categoryHeading {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+}
