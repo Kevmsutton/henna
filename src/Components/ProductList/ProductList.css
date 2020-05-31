@@ -1,54 +1,61 @@
-.productListContainer {
-  width: 70%;
-  overflow: hidden;
+.productListContain {
+  display: flex;
+  width: 100%;
+}
+
+.productBoxJustifier {
+  display: flex;
+  align-content: center;
+  width: 100%;
 }
 
 .productBoxWrapper {
   display: flex;
-}
-
-.productBox {
-  width: 70%;
-  padding: 20px;
-  display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: left;
-  text-align: center;
+  width: 80%;
 }
 
 .productBox img:hover {
   opacity: 0.7;
 }
 
+.individualProduct {
+  position: relative;
+  width: 31%;
+  height: 450px;
+  padding: 10px;
+  font-size: 1.7vw;
+  margin-bottom: 10%;
+  transition: all 0.1s ease-in-out;
+}
+
+.individualProduct:hover {
+  transform: scale(1.05);
+}
+
+.productImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.productText {
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.productText p {
+  margin-bottom: 5px;
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
   .individualProduct {
-    width: 28%;
-    padding: 30px;
-    font-size: 1.7vw;
-    margin-bottom: 5%;
-    transition: all 0.1s ease-in-out;
+    margin-bottom: 3%;
+    height: auto;
+    width: 45%;
+    font-size: 2.7vw;
   }
-
-  .categoryHeading {
-    text-align: center;
-    font-size: 3vw;
-    margin-bottom: 2%;
-    margin-top: 0;
-  }
-
-  .filterProductsBy {
-    text-align: center;
-  }
-
-  .filterProductsBy ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 50%;
-    font-size: 35px;
-    margin-bottom: 2%;
-    font-size: 2vw;
+  .productText {
+    width: 85%;
   }
 
   .individualProductFilters li {
@@ -58,55 +65,26 @@
     border: 0.5px solid grey;
   }
 
-  .individualProductFilters li p {
-    position: absolute;
-    padding: 0;
-    margin-left: 12%;
-    margin-top: -35px;
-  }
-  .filterText {
+  /* .filterText {
     display: none;
   }
 
   .filterIcon {
     display: none;
-  }
-
-  .breadCrumb {
-    margin-left: 3%;
-    font-size: 1.5vw;
-  }
+  } */
 }
 
 @media only screen and (max-width: 639px) {
-  .productBox {
+  .productBoxWrapper {
     width: 100%;
-    flex-direction: column;
-    padding: 0px;
+    padding: 0;
+    margin-left: 10px;
   }
-
   .individualProduct {
-    width: 80%;
-  }
-
-  .individualProduct p {
-    margin: 0;
-    background-color: white;
-    font-size: 0.85em;
-    text-align: right;
-    opacity: 0.7;
-  }
-
-  .productBox p {
-    width: 70%;
-    padding: 4px;
-    text-align: center;
-    display: inline-block;
-    background-color: #f3f5f9;
-  }
-
-  .individualProduct:hover {
-    transform: scale(1.05);
+    font-size: 4vw;
+    width: 46.5%;
+    padding: 5px;
+    height: auto;
   }
 
   .breadCrumb .noClickBreadCrumb {

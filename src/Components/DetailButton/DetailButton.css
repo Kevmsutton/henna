@@ -6,6 +6,18 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+  .detailButton {
+    width: 70%;
+    position: relative;
+  }
+  .detailButtonInner {
+    font-size: 3vw;
+  }
 }
 
 @media only screen and (max-width: 639px) {
@@ -13,6 +25,8 @@
     width: 100%;
     border: none;
     padding: 0;
+    position: relative;
+    justify-content: flex-end;
   }
   .detailButtonInner {
     font-size: 3vw;

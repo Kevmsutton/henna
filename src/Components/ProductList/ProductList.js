@@ -82,8 +82,9 @@ class ProductList extends React.Component {
     const { handleProductClick } = this.props;
 
     return (
-      <div className='productListContainer'>
-        {/* <p className='filterText'> Filter</p>
+      <div className='productBoxJustifier'>
+        <div className='productBoxWrapper'>
+          {/* <p className='filterText'> Filter</p>
           <p className='filterIcon'>
             <MaterialIcon icon='keyboard_arrow_down' size='40' />
           </p>
@@ -109,39 +110,43 @@ class ProductList extends React.Component {
               </p>
             </li>
           </ul> */}
-        <div className='productBoxWrapper'>
-          <div className='productBox'>
-            {this.filteredProducts().map((product) => (
-              <div
-                key={product.id}
-                onClick={() => handleProductClick(product)}
-                className='individualProduct'
+
+          {this.filteredProducts().map((product) => (
+            <div
+              key={product.id}
+              onClick={() => handleProductClick(product)}
+              className='individualProduct'
+            >
+              <Link
+                style={{ textDecoration: 'none', color: 'black' }}
+                to={`/${product.name}`}
+                key={product.name}
               >
-                <Link
-                  style={{ textDecoration: 'none', color: 'black' }}
-                  to={`/${product.name}`}
-                  key={product.name}
-                >
+                <div className='productImage'>
                   <img
                     src={process.env.PUBLIC_URL + `${product.image}`}
-                    width='80%'
-                    height='85%'
+                    width='100%'
+                    height='auto'
                     alt='productImg'
                   />
+                </div>
+                <div className='productText'>
                   <p>
                     <strong>{product.name}</strong>
                   </p>
                   <p>{product.description}</p>
+
                   <p>
                     <strong>£{product.price}</strong>
                   </p>
+
                   <DetailButton>More Detail </DetailButton>
-                </Link>
-              </div>
-            ))}
-          </div>
+                </div>
+              </Link>
+            </div>
+          ))}
+          {/* <BasketListBox></BasketListBox> */}
         </div>
-        {/* <BasketListBox></BasketListBox> */}
       </div>
     );
   }

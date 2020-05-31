@@ -1,6 +1,7 @@
 .productListHeadContainer {
   width: 100%;
   padding: 20px;
+  padding-bottom: 80px;
 }
 
 .breadCrumb {
@@ -15,4 +16,30 @@
   font-size: 3vw;
   display: flex;
   justify-content: center;
+  width: 95%;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+  .productListHeadContainer {
+    padding-bottom: 30px;
+  }
+  .categoryHeading {
+    font-size: 5vw;
+  }
+  .breadCrumb {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .productListHeadContainer {
+    padding: 10px;
+  }
+
+  .categoryHeading {
+    font-size: 5vw;
+  }
+  .breadCrumb {
+    font-size: 3vw;
+  }
 }
