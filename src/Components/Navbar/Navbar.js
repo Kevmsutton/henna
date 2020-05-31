@@ -12,7 +12,7 @@ const categories = [
   { name: 'Lifestyle' },
   { name: 'Garden' },
   { name: 'Storage' },
-  { name: 'Designer' }
+  { name: 'Designer' },
 ];
 
 class Navbar extends React.Component {
@@ -58,7 +58,7 @@ class Navbar extends React.Component {
         <div className='topNavYellowUnderLine' />
         <div className='categoryNav'>
           <ul>
-            {categories.map(category => (
+            {categories.map((category) => (
               <Link
                 style={{ textDecoration: 'none', color: 'black' }}
                 to={`/${category.name}`}
@@ -73,6 +73,26 @@ class Navbar extends React.Component {
               </Link>
             ))}
           </ul>
+        </div>
+        <div className='mobileNavWrap'>
+          <div className='mobileNavBox'>
+            <ul>
+              {categories.map((category) => (
+                <Link
+                  style={{ textDecoration: 'none', color: 'black' }}
+                  to={`/${category.name}`}
+                  key={category.name}
+                >
+                  <li
+                    className='categoryEl'
+                    onClick={() => handleNavCategoryClick(category.name)}
+                  >
+                    {category.name}
+                  </li>
+                </Link>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     );
