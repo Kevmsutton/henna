@@ -126,19 +126,22 @@
   }
 
   .mobileNavWrap {
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    z-index: 20;
+    background-color: white;
+    width: 100%;
   }
 
   .mobileNavBox {
-    height: 200px;
-    width: 200px;
-    background-color: #f0f0f0;
   }
 
   .mobileNavBox ul {
     margin: 0;
     padding: 4px;
+  }
+
+  .mobileNavBox li {
+    border-bottom: 1px solid #f0f0f0;
   }
 
   .categoryEl {
@@ -147,5 +150,29 @@
     height: 20px;
     padding: 3px;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .categoryEl > .md-24.md-24.md-dark {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .mobileBoxHead {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .mobileBoxHead h6 {
+    padding: 0;
+    padding-left: 40%;
+    margin: 0;
+  }
+  .mobileBoxHead > .md-24.md-24.md-dark {
+    margin-top: 0;
+    font-size: 25px;
+    color: black;
   }
 }

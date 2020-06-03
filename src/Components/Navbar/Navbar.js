@@ -16,6 +16,16 @@ const categories = [
 ];
 
 class Navbar extends React.Component {
+  state = {};
+
+  handleMenuCloseClick = () => {
+    document.querySelector('.mobileNavWrap').style.display = 'none';
+  };
+
+  handleBurgerMenuClick = () => {
+    document.querySelector('.mobileNavWrap').style.display = 'block';
+  };
+
   render() {
     const { handleNavCategoryClick } = this.props;
     return (
@@ -45,7 +55,10 @@ class Navbar extends React.Component {
           </ul>
 
           <ul className='categoryDD'>
-            <li>
+            <li
+              className='mobileMenuIcon'
+              onClick={() => this.handleBurgerMenuClick()}
+            >
               <MaterialIcon icon='reorder' />
             </li>
             <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
@@ -75,6 +88,13 @@ class Navbar extends React.Component {
           </ul>
         </div>
         <div className='mobileNavWrap'>
+          <div className='mobileBoxHead'>
+            <h6>Menu</h6>
+            <MaterialIcon
+              icon='clear'
+              onClick={() => this.handleMenuCloseClick()}
+            />
+          </div>
           <div className='mobileNavBox'>
             <ul>
               {categories.map((category) => (
@@ -88,6 +108,7 @@ class Navbar extends React.Component {
                     onClick={() => handleNavCategoryClick(category.name)}
                   >
                     {category.name}
+                    <MaterialIcon icon='keyboard_arrow_right' />
                   </li>
                 </Link>
               ))}
