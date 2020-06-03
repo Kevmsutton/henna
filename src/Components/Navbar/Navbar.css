@@ -67,6 +67,10 @@
   font-size: 50px;
 }
 
+.mobileScreenNavbar {
+  display: none;
+}
+
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
   .topNav {
     padding: 5px 15px 5px 15px;
@@ -123,6 +127,9 @@
 
   .lgScreenAcNav {
     display: none;
+  }
+  .mobileScreenNavbar {
+    display: block;
   }
 
   .mobileNavWrap {

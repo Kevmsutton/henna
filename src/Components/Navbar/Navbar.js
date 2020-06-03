@@ -85,32 +85,34 @@ class Navbar extends React.Component {
             ))}
           </ul>
         </div>
-        <div className='mobileNavWrap'>
-          <div className='mobileBoxHead'>
-            <h6>Menu</h6>
-            <MaterialIcon
-              icon='clear'
-              onClick={() => this.handleBurgerMenuClick()}
-            />
-          </div>
-          <div className='mobileNavBox'>
-            <ul>
-              {categories.map((category) => (
-                <Link
-                  style={{ textDecoration: 'none', color: 'black' }}
-                  to={`/${category.name}`}
-                  key={category.name}
-                >
-                  <li
-                    className='categoryEl'
-                    onClick={() => handleNavCategoryClick(category.name)}
+        <div className='mobileScreenNavbar'>
+          <div className='mobileNavWrap'>
+            <div className='mobileBoxHead'>
+              <h6>Menu</h6>
+              <MaterialIcon
+                icon='clear'
+                onClick={() => this.handleBurgerMenuClick()}
+              />
+            </div>
+            <div className='mobileNavBox'>
+              <ul>
+                {categories.map((category) => (
+                  <Link
+                    style={{ textDecoration: 'none', color: 'black' }}
+                    to={`/${category.name}`}
+                    key={category.name}
                   >
-                    {category.name.toUpperCase()}
-                    <MaterialIcon icon='keyboard_arrow_right' />
-                  </li>
-                </Link>
-              ))}
-            </ul>
+                    <li
+                      className='categoryEl'
+                      onClick={() => handleNavCategoryClick(category.name)}
+                    >
+                      {category.name.toUpperCase()}
+                      <MaterialIcon icon='keyboard_arrow_right' />
+                    </li>
+                  </Link>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
