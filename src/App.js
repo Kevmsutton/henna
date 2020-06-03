@@ -69,6 +69,8 @@ class App extends React.Component {
   };
 
   handleNavCategoryClick = (category) => {
+    document.querySelector('.mobileNavWrap').classList.toggle('active');
+    document.querySelector('.mobileMenuIcon').classList.toggle('burger');
     this.setState({ category: category });
   };
 

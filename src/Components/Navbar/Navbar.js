@@ -18,12 +18,9 @@ const categories = [
 class Navbar extends React.Component {
   state = {};
 
-  handleMenuCloseClick = () => {
-    document.querySelector('.mobileNavWrap').style.display = 'none';
-  };
-
   handleBurgerMenuClick = () => {
-    document.querySelector('.mobileNavWrap').style.display = 'block';
+    document.querySelector('.mobileNavWrap').classList.toggle('active');
+    document.querySelector('.mobileMenuIcon').classList.toggle('burger');
   };
 
   render() {
@@ -80,6 +77,7 @@ class Navbar extends React.Component {
                 <li
                   className='categoryEl'
                   onClick={() => handleNavCategoryClick(category.name)}
+                  // add close burger menu function to handle cat nav click
                 >
                   {category.name}
                 </li>
@@ -92,7 +90,7 @@ class Navbar extends React.Component {
             <h6>Menu</h6>
             <MaterialIcon
               icon='clear'
-              onClick={() => this.handleMenuCloseClick()}
+              onClick={() => this.handleBurgerMenuClick()}
             />
           </div>
           <div className='mobileNavBox'>
@@ -107,7 +105,7 @@ class Navbar extends React.Component {
                     className='categoryEl'
                     onClick={() => handleNavCategoryClick(category.name)}
                   >
-                    {category.name}
+                    {category.name.toUpperCase()}
                     <MaterialIcon icon='keyboard_arrow_right' />
                   </li>
                 </Link>
@@ -119,5 +117,8 @@ class Navbar extends React.Component {
     );
   }
 }
+
+//still need to adjust mobile nav to full height of the application or limit the window height when the
+// mobile nav is open
 
 export default Navbar;

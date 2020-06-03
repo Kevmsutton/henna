@@ -50,7 +50,7 @@
 
 .sale .saleText {
   position: absolute;
-  z-index: 999;
+  z-index: 10;
   margin-left: 45px;
   margin-top: 10px;
   top: 0%; /* Adjust this value to move the positioned div up and down */
