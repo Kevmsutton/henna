@@ -15,24 +15,13 @@ import DetailButton from '../DetailButton/DetailButton.js';
 import catBreadandHead from '../catBreadandHead/catBreadandHead';
 
 class ProductList extends React.Component {
-  state = {
-    products: [],
-  };
-
-  componentDidMount() {
-    fetch('./productFeed.json')
-      .then((resp) => resp.json())
-      .then((data) => this.setState({ products: data.products }));
-  }
-
   filteredProducts = () => {
-    console.log(this.state.products);
-
     console.log(this.props);
+
     // if there is a price i only want to show products less than that price
     // if there is a material selected i only want to show products with that material
     // if there is a colour selected only products with that colour
-    let categoryProducts = this.state.products.filter((product) => {
+    let categoryProducts = this.props.products.filter((product) => {
       //where are props coming from?
       //
       if (this.props.priceSelector) {
@@ -79,7 +68,8 @@ class ProductList extends React.Component {
   };
 
   render() {
-    const { handleProductClick } = this.props;
+    const { handleProductClick, loadProductFeed } = this.props;
+    console.log(this.props);
 
     return (
       <div className='productBoxJustifier'>

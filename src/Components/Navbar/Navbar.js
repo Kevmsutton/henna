@@ -24,7 +24,7 @@ class Navbar extends React.Component {
   };
 
   render() {
-    const { handleNavCategoryClick } = this.props;
+    const { handleNavCategoryClick, loadProductFeed } = this.props;
     return (
       <div className='allNav'>
         <div className='topNav'>

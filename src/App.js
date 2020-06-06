@@ -22,7 +22,19 @@ class App extends React.Component {
     fullProduct: null,
     basket: [],
     favourites: [],
+    products: [],
   };
+
+  componentDidMount() {
+    fetch('./productFeed.json', {
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => this.setState({ products: data.products }));
+  }
 
   removeBasketItem = (basketItem) => {
     let updatedBasket = this.state.basket.filter(
@@ -89,6 +101,7 @@ class App extends React.Component {
       fullProduct,
       basket,
       favourites,
+      products,
     } = this.state;
     return (
       <div className='app'>
@@ -118,6 +131,7 @@ class App extends React.Component {
         />
         <Route
           path={`/${this.state.individualProduct}`}
+          // when page is refreshed there is no stored state. And so therefore renders nothing!
           render={(props) => (
             <Product
               {...props}
@@ -130,6 +144,7 @@ class App extends React.Component {
         />
         <Route
           path={`/${this.state.category}`}
+          // when page is refreshed there is no stored state. And so therefore renders nothing!
           render={(props) => (
             <div>
               <CatBreadandHead {...props} category={category} />
@@ -142,6 +157,7 @@ class App extends React.Component {
                   priceSelector={priceSelector}
                   materialSelector={materialSelector}
                   handleProductClick={this.handleProductClick}
+                  products={products}
                 />
               </div>
             </div>
