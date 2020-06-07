@@ -6,7 +6,7 @@ import ProductButton from '../ProductButton/ProductButton';
 
 class Favourites extends React.Component {
   render() {
-    const { favourites, addProductToBasket } = this.props;
+    const { favourites, addProductToBasket, removeFavouriteItem } = this.props;
     console.log(favourites);
     return (
       <div className='favouritesContainer'>
@@ -16,7 +16,7 @@ class Favourites extends React.Component {
             <div>You haven't selected any favourite products</div>
           ) : (
             <>
-              {favourites.map(product => (
+              {favourites.map((product) => (
                 <div className='favProductDetail' key={product.id}>
                   <div className='favProductTop'>
                     <img src={product.image} />
@@ -32,6 +32,12 @@ class Favourites extends React.Component {
                   </div>
                   <div onClick={() => addProductToBasket(product)}>
                     <ProductButton />
+                  </div>
+                  <div
+                    className='removeBasketDiv'
+                    onClick={() => removeFavouriteItem(product)}
+                  >
+                    <h3>Remove this from Favourites</h3>
                   </div>
                 </div>
               ))}

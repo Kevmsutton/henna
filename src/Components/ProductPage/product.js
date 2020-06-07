@@ -12,8 +12,6 @@ class Product extends React.Component {
     this.state.heartColour === 'heartPink'
       ? this.setState({ heartColour: 'heartNorm' })
       : this.setState({ heartColour: 'heartPink' });
-    //Needs to be passed to app to remember state? also need to ensure that when product is 'double clicked it
-    //get's removed from favourites
   };
 
   render() {

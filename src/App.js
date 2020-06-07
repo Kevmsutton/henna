@@ -130,6 +130,7 @@ class App extends React.Component {
               {...props}
               favourites={favourites}
               addProductToBasket={this.addProductToBasket}
+              removeFavouriteItem={this.removeFavouriteItem}
             />
           )}
         />
