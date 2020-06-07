@@ -24,13 +24,23 @@ class Navbar extends React.Component {
   };
 
   render() {
-    const { handleNavCategoryClick, loadProductFeed } = this.props;
+    const { handleNavCategoryClick } = this.props;
     return (
       <div className='allNav'>
         <div className='topNav'>
-          <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
-            <p>HENNA</p>
-          </Link>
+          <ul className='logoNavWrap'>
+            <li
+              className='mobileMenuIcon'
+              onClick={() => this.handleBurgerMenuClick()}
+            >
+              <MaterialIcon icon='reorder' />
+            </li>
+            <li>
+              <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
+                <p>HENNA</p>
+              </Link>
+            </li>
+          </ul>
           <ul>
             <div className='lgScreenAcNav'>
               <Link style={{ textDecoration: 'none' }} to='/favourites'>
@@ -49,20 +59,6 @@ class Navbar extends React.Component {
                 </li>
               </Link>
             </div>
-          </ul>
-
-          <ul className='categoryDD'>
-            <li
-              className='mobileMenuIcon'
-              onClick={() => this.handleBurgerMenuClick()}
-            >
-              <MaterialIcon icon='reorder' />
-            </li>
-            <Link style={{ textDecoration: 'none' }} to='/personalAccount'>
-              <li className='account'>
-                <MaterialIcon icon='person' />
-              </li>
-            </Link>
           </ul>
         </div>
         <div className='topNavYellowUnderLine' />
