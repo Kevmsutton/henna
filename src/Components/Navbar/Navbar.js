@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './Navbar.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
@@ -44,12 +44,24 @@ class Navbar extends React.Component {
           <ul>
             <div className='lgScreenAcNav'>
               <Link style={{ textDecoration: 'none' }} to='/favourites'>
-                <li className='favourites'>
-                  <MaterialIcon icon='favorite_border' />
-                </li>
+                {this.props.favourites.length < 1 ? (
+                  <li className='favourites'>
+                    <MaterialIcon icon='favorite_border' />
+                  </li>
+                ) : (
+                  <li className='favouritesFull'>
+                    <MaterialIcon icon='favorite_border' />
+                  </li>
+                )}
               </Link>
               <Link style={{ textDecoration: 'none' }} to='/shoppingBag'>
+                {/* Could split this into component for favourites */}
                 <li className='bag'>
+                  {this.props.basket.length > 0 ? (
+                    <div className='bagNumber'>{this.props.basket.length}</div>
+                  ) : (
+                    <></>
+                  )}
                   <MaterialIcon icon='work' />
                 </li>
               </Link>

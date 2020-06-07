@@ -14,7 +14,7 @@ import CatBreadandHead from './Components/catBreadandHead/catBreadandHead.js';
 
 class App extends React.Component {
   state = {
-    category: null,
+    category: 'beds',
     colourSelector: null,
     priceSelector: null,
     materialSelector: 'metal',
@@ -105,7 +105,11 @@ class App extends React.Component {
     } = this.state;
     return (
       <div className='app'>
-        <Navbar handleNavCategoryClick={this.handleNavCategoryClick} />
+        <Navbar
+          handleNavCategoryClick={this.handleNavCategoryClick}
+          basket={basket}
+          favourites={favourites}
+        />
         <Route exact path='/' component={Home} />
         <Route
           path='/shoppingBag'
