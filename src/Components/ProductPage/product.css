@@ -2,6 +2,16 @@
   padding: 40px;
 }
 
+.heartPink > .md-24.md-24.md-dark {
+  color: #ffa38e;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+.heartNorm > .md-24.md-24.md-dark {
+  cursor: pointer;
+  font-size: 60px;
+}
 @media only screen and (max-width: 600px) {
   .productPageContainer {
     padding: 20px;
@@ -48,7 +58,7 @@
   width: 30%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 639px) {
   .productDetail {
     width: 100%;
     font-size: 3vw;
@@ -56,21 +66,18 @@
     height: auto;
     margin-bottom: 20px;
   }
+
+  .heart > .md-24.md-24.md-dark {
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
 }
 
 .heartIcon {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-}
-
-.heart {
-  transform: scale(1.1);
-}
-
-.heart:hover {
-  transform: scale(1.2);
-  cursor: pointer;
 }
 
 .colorWrapper {

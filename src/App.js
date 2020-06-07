@@ -143,6 +143,8 @@ class App extends React.Component {
               fullProduct={fullProduct}
               addProductToBasket={this.addProductToBasket}
               addProductToFavourites={this.addProductToFavourites}
+              favourites={favourites}
+              removeFavouriteItem={this.removeFavouriteItem}
             />
           )}
         />

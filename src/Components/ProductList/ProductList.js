@@ -68,7 +68,7 @@ class ProductList extends React.Component {
   };
 
   render() {
-    const { handleProductClick, loadProductFeed } = this.props;
+    const { handleProductClick } = this.props;
     console.log(this.props);
 
     return (

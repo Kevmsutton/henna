@@ -4,11 +4,24 @@ import ProductButton from '../ProductButton/ProductButton.js';
 import MaterialIcon from 'material-icons-react';
 
 class Product extends React.Component {
+  state = {
+    heartColour: 'heartNorm',
+  };
+
+  toggleHeartColour = () => {
+    this.state.heartColour === 'heartPink'
+      ? this.setState({ heartColour: 'heartNorm' })
+      : this.setState({ heartColour: 'heartPink' });
+    //Needs to be passed to app to remember state? also need to ensure that when product is 'double clicked it
+    //get's removed from favourites
+  };
+
   render() {
     const {
       fullProduct,
       addProductToBasket,
-      addProductToFavourites
+      addProductToFavourites,
+      removeFavouriteItem,
     } = this.props;
     console.log(addProductToBasket);
     return (
@@ -26,14 +39,31 @@ class Product extends React.Component {
             />
           </div>
           <div className='productDetail'>
-            <div
-              onClick={() => addProductToFavourites(fullProduct)}
-              className='heartIcon'
-            >
-              <p className='heart'>
-                <MaterialIcon icon='favorite_border' size='40' />
-              </p>
-            </div>
+            {this.state.heartColour === 'heartNorm' ? (
+              <div
+                onClick={() => addProductToFavourites(fullProduct)}
+                className='heartIcon'
+              >
+                <p
+                  className={this.state.heartColour}
+                  onClick={() => this.toggleHeartColour()}
+                >
+                  <MaterialIcon icon='favorite_border' />
+                </p>
+              </div>
+            ) : (
+              <div
+                onClick={() => removeFavouriteItem(fullProduct)}
+                className='heartIcon'
+              >
+                <p
+                  className={this.state.heartColour}
+                  onClick={() => this.toggleHeartColour()}
+                >
+                  <MaterialIcon icon='favorite_border' />
+                </p>
+              </div>
+            )}
             <h2>{fullProduct.name}</h2>
             <p>{fullProduct.longDescription}</p>
             <h2>£{fullProduct.price}</h2>
