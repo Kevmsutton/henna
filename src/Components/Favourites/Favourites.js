@@ -17,6 +17,7 @@ class Favourites extends React.Component {
           ) : (
             <>
               {favourites.map((product) => (
+                // on click should visit productPage
                 <div className='favProductDetail' key={product.id}>
                   <div className='favProductTop'>
                     <img src={product.image} />

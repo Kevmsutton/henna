@@ -12,6 +12,8 @@ class Product extends React.Component {
     this.state.heartColour === 'heartPink'
       ? this.setState({ heartColour: 'heartNorm' })
       : this.setState({ heartColour: 'heartPink' });
+    //the colour of the heart on the product page should really be based on whether the
+    // product can be found in favourites or not!
   };
 
   render() {

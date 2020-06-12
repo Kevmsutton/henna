@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import './Navbar.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
+import SearchBox from '../SearchBox/SearchBox.js';
 
 const categories = [
   { name: 'Sofas' },
@@ -40,7 +41,9 @@ class Navbar extends React.Component {
                 <p>HENNA</p>
               </Link>
             </li>
+            <SearchBox />
           </ul>
+
           <ul>
             <div className='lgScreenAcNav'>
               <Link style={{ textDecoration: 'none' }} to='/favourites'>

@@ -1,0 +1,26 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-left: 20%;
+}
+
+.searchBox > input {
+  font-size: 1.6vw;
+  width: 100%;
+  margin: auto;
+  outline: none;
+  color: grey;
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 15px;
+  font-family: philosopher;
+}
+
+.searchBox > input:focus {
+  outline: none;
+}
+
+.searchBox > input::placeholder {
+  color: #b0b0b0;
+}
