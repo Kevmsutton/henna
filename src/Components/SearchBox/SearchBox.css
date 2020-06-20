@@ -1,6 +1,5 @@
 .searchBox {
   display: flex;
-  flex-direction: column;
   width: 40vw;
   margin-left: 20%;
 }
@@ -13,7 +12,7 @@
   color: grey;
   border: none;
   border-bottom: 1px solid #dcdcdc;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   font-family: philosopher;
 }
 
@@ -23,4 +22,12 @@
 
 .searchBox > input::placeholder {
   color: #b0b0b0;
+}
+
+.searchBox > .md-24.md-dark {
+  color: black;
+  font-size: 35px;
+  margin: 0;
+  padding-top: 25px;
+  margin-left: -30px;
 }

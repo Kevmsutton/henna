@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import './Navbar.css';
 import MaterialIcon from 'material-icons-react';
 import { Link } from 'react-router-dom';
@@ -25,7 +25,7 @@ class Navbar extends React.Component {
   };
 
   render() {
-    const { handleNavCategoryClick } = this.props;
+    const { handleNavCategoryClick, searchBarEvent } = this.props;
     return (
       <div className='allNav'>
         <div className='topNav'>
@@ -41,7 +41,7 @@ class Navbar extends React.Component {
                 <p>HENNA</p>
               </Link>
             </li>
-            <SearchBox />
+            <SearchBox searchBarEvent={searchBarEvent} />
           </ul>
 
           <ul>

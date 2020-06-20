@@ -23,6 +23,7 @@ class App extends React.Component {
     basket: [],
     favourites: [],
     products: [],
+    searchBarResults: null,
   };
 
   componentDidMount() {
@@ -91,6 +92,12 @@ class App extends React.Component {
     this.setState({ fullProduct: product });
   };
 
+  searchBarEvent = (event) => {
+    this.setState({ searchBarResults: event.target.value });
+  };
+
+  searchProducts = () => {};
+
   render() {
     const {
       category,
@@ -109,6 +116,7 @@ class App extends React.Component {
           handleNavCategoryClick={this.handleNavCategoryClick}
           basket={basket}
           favourites={favourites}
+          searchBarEvent={this.searchBarEvent}
         />
         <Route exact path='/' component={Home} />
         <Route
